@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Schedule));
             this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
             this.documentContainer2 = new Telerik.WinControls.UI.Docking.DocumentContainer();
             this.radMenuItem1 = new Telerik.WinControls.UI.RadMenuItem();
@@ -53,7 +52,6 @@
             this.radMenuItem12 = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenuItem13 = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenuItem14 = new Telerik.WinControls.UI.RadMenuItem();
-            this.radMenuItem15 = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenuItem16 = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenuItem17 = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenuItem8 = new Telerik.WinControls.UI.RadMenuItem();
@@ -83,6 +81,8 @@
             this.radMenuItem3 = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenuItem4 = new Telerik.WinControls.UI.RadMenuItem();
             this.radMenuItem5 = new Telerik.WinControls.UI.RadMenuItem();
+            this.radProgressBar1 = new Telerik.WinControls.UI.RadProgressBar();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.documentContainer2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menuPanel)).BeginInit();
             this.menuPanel.SuspendLayout();
@@ -100,6 +100,7 @@
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radMenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
+            this.radPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cabinetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.scheduleDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.disciplineBindingSource)).BeginInit();
@@ -109,6 +110,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.courseBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.teacherBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.discipline_cabinetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radProgressBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -144,14 +146,15 @@
             this.menuPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuPanel.Location = new System.Drawing.Point(3, 46);
             this.menuPanel.Name = "menuPanel";
-            this.menuPanel.Size = new System.Drawing.Size(74, 722);
+            this.menuPanel.Size = new System.Drawing.Size(74, 728);
             this.menuPanel.TabIndex = 1;
             this.menuPanel.ThemeName = "Material";
             // 
             // scheduleButton
             // 
-            this.scheduleButton.BackColor = System.Drawing.Color.Transparent;
+            this.scheduleButton.BackColor = System.Drawing.Color.White;
             this.scheduleButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.scheduleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.scheduleButton.Image = global::schedule.Properties.Resources.schedule;
             this.scheduleButton.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.scheduleButton.Location = new System.Drawing.Point(10, 625);
@@ -164,9 +167,10 @@
             // 
             // fragmentSummaryButton
             // 
-            this.fragmentSummaryButton.BackColor = System.Drawing.Color.Transparent;
+            this.fragmentSummaryButton.BackColor = System.Drawing.Color.White;
             this.fragmentSummaryButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.fragmentSummaryButton.Image = ((System.Drawing.Image)(resources.GetObject("fragmentSummaryButton.Image")));
+            this.fragmentSummaryButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.fragmentSummaryButton.Image = global::schedule.Properties.Resources.fs;
             this.fragmentSummaryButton.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.fragmentSummaryButton.Location = new System.Drawing.Point(9, 564);
             this.fragmentSummaryButton.Name = "fragmentSummaryButton";
@@ -178,9 +182,10 @@
             // 
             // specialtyCourseButton
             // 
-            this.specialtyCourseButton.BackColor = System.Drawing.Color.Transparent;
+            this.specialtyCourseButton.BackColor = System.Drawing.Color.White;
             this.specialtyCourseButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.specialtyCourseButton.Image = ((System.Drawing.Image)(resources.GetObject("specialtyCourseButton.Image")));
+            this.specialtyCourseButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.specialtyCourseButton.Image = global::schedule.Properties.Resources.dt;
             this.specialtyCourseButton.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.specialtyCourseButton.Location = new System.Drawing.Point(9, 502);
             this.specialtyCourseButton.Name = "specialtyCourseButton";
@@ -192,8 +197,9 @@
             // 
             // cabinetDisciplineButton
             // 
-            this.cabinetDisciplineButton.BackColor = System.Drawing.Color.Transparent;
+            this.cabinetDisciplineButton.BackColor = System.Drawing.Color.White;
             this.cabinetDisciplineButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.cabinetDisciplineButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.cabinetDisciplineButton.Image = global::schedule.Properties.Resources.rat;
             this.cabinetDisciplineButton.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.cabinetDisciplineButton.Location = new System.Drawing.Point(10, 440);
@@ -206,8 +212,9 @@
             // 
             // teacherDisceplineButton
             // 
-            this.teacherDisceplineButton.BackColor = System.Drawing.Color.Transparent;
+            this.teacherDisceplineButton.BackColor = System.Drawing.Color.White;
             this.teacherDisceplineButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.teacherDisceplineButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.teacherDisceplineButton.Image = global::schedule.Properties.Resources.sp;
             this.teacherDisceplineButton.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.teacherDisceplineButton.Location = new System.Drawing.Point(10, 378);
@@ -220,8 +227,9 @@
             // 
             // groupButton
             // 
-            this.groupButton.BackColor = System.Drawing.Color.Transparent;
+            this.groupButton.BackColor = System.Drawing.Color.White;
             this.groupButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.groupButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.groupButton.Image = global::schedule.Properties.Resources.gs;
             this.groupButton.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.groupButton.Location = new System.Drawing.Point(10, 316);
@@ -234,9 +242,10 @@
             // 
             // buttonEmployee
             // 
-            this.buttonEmployee.BackColor = System.Drawing.Color.Transparent;
+            this.buttonEmployee.BackColor = System.Drawing.Color.White;
             this.buttonEmployee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonEmployee.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmployee.Image")));
+            this.buttonEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.buttonEmployee.Image = global::schedule.Properties.Resources.time1;
             this.buttonEmployee.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.buttonEmployee.Location = new System.Drawing.Point(10, 254);
             this.buttonEmployee.Name = "buttonEmployee";
@@ -248,9 +257,10 @@
             // 
             // buttonSpecialty
             // 
-            this.buttonSpecialty.BackColor = System.Drawing.Color.Transparent;
+            this.buttonSpecialty.BackColor = System.Drawing.Color.White;
             this.buttonSpecialty.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonSpecialty.Image = ((System.Drawing.Image)(resources.GetObject("buttonSpecialty.Image")));
+            this.buttonSpecialty.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.buttonSpecialty.Image = global::schedule.Properties.Resources.specialty1;
             this.buttonSpecialty.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.buttonSpecialty.Location = new System.Drawing.Point(10, 192);
             this.buttonSpecialty.Name = "buttonSpecialty";
@@ -262,8 +272,9 @@
             // 
             // buttonTeachers
             // 
-            this.buttonTeachers.BackColor = System.Drawing.Color.Transparent;
+            this.buttonTeachers.BackColor = System.Drawing.Color.White;
             this.buttonTeachers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonTeachers.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.buttonTeachers.Image = global::schedule.Properties.Resources.teacherf;
             this.buttonTeachers.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.buttonTeachers.Location = new System.Drawing.Point(10, 130);
@@ -276,8 +287,10 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackColor = System.Drawing.Color.White;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.button2.Image = global::schedule.Properties.Resources.disciplin1e;
             this.button2.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.button2.Location = new System.Drawing.Point(10, 68);
@@ -290,8 +303,9 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackColor = System.Drawing.Color.White;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button1.Image = global::schedule.Properties.Resources.cabinet_ff;
             this.button1.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.button1.Location = new System.Drawing.Point(10, 6);
@@ -315,7 +329,7 @@
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1314, 771);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1326, 777);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // radMenu1
@@ -328,7 +342,7 @@
             this.radMenuItem9});
             this.radMenu1.Location = new System.Drawing.Point(3, 3);
             this.radMenu1.Name = "radMenu1";
-            this.radMenu1.Size = new System.Drawing.Size(1308, 37);
+            this.radMenu1.Size = new System.Drawing.Size(1320, 37);
             this.radMenu1.TabIndex = 3;
             this.radMenu1.Text = "radMenu1";
             this.radMenu1.ThemeName = "Material";
@@ -352,7 +366,6 @@
             this.radMenuItem12,
             this.radMenuItem13,
             this.radMenuItem14,
-            this.radMenuItem15,
             this.radMenuItem16,
             this.radMenuItem17});
             this.radMenuItem7.Name = "radMenuItem7";
@@ -362,26 +375,25 @@
             // 
             this.radMenuItem12.Name = "radMenuItem12";
             this.radMenuItem12.Text = "Расписание занятий";
+            this.radMenuItem12.Click += new System.EventHandler(this.radMenuItem12_Click);
             // 
             // radMenuItem13
             // 
             this.radMenuItem13.Name = "radMenuItem13";
             this.radMenuItem13.Text = "Сводная выписка";
+            this.radMenuItem13.Click += new System.EventHandler(this.radMenuItem13_Click);
             // 
             // radMenuItem14
             // 
             this.radMenuItem14.Name = "radMenuItem14";
             this.radMenuItem14.Text = "Дисциплины преподавателя";
-            // 
-            // radMenuItem15
-            // 
-            this.radMenuItem15.Name = "radMenuItem15";
-            this.radMenuItem15.Text = "Список преподавателей и дисциплин";
+            this.radMenuItem14.Click += new System.EventHandler(this.radMenuItem14_Click);
             // 
             // radMenuItem16
             // 
             this.radMenuItem16.Name = "radMenuItem16";
             this.radMenuItem16.Text = "Время работы преподавателя";
+            this.radMenuItem16.Click += new System.EventHandler(this.radMenuItem16_Click);
             // 
             // radMenuItem17
             // 
@@ -419,10 +431,11 @@
             // radPanel1
             // 
             this.radPanel1.AutoScroll = true;
+            this.radPanel1.Controls.Add(this.radProgressBar1);
             this.radPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radPanel1.Location = new System.Drawing.Point(87, 46);
             this.radPanel1.Name = "radPanel1";
-            this.radPanel1.Size = new System.Drawing.Size(1224, 722);
+            this.radPanel1.Size = new System.Drawing.Size(1236, 728);
             this.radPanel1.TabIndex = 2;
             this.radPanel1.ThemeName = "Material";
             // 
@@ -546,11 +559,27 @@
             this.radMenuItem5.Name = "radMenuItem5";
             this.radMenuItem5.Text = "О программе";
             // 
+            // radProgressBar1
+            // 
+            this.radProgressBar1.Location = new System.Drawing.Point(641, 392);
+            this.radProgressBar1.Name = "radProgressBar1";
+            this.radProgressBar1.SeparatorColor1 = System.Drawing.Color.Blue;
+            this.radProgressBar1.SeparatorColor3 = System.Drawing.Color.Blue;
+            this.radProgressBar1.Size = new System.Drawing.Size(468, 103);
+            this.radProgressBar1.TabIndex = 0;
+            this.radProgressBar1.Text = "Подождите...";
+            this.radProgressBar1.ThemeName = "Material";
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 5;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Schedule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1314, 771);
+            this.ClientSize = new System.Drawing.Size(1326, 777);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Schedule";
             // 
@@ -579,6 +608,7 @@
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radMenu1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
+            this.radPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.cabinetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.scheduleDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.disciplineBindingSource)).EndInit();
@@ -588,6 +618,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.courseBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.teacherBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.discipline_cabinetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radProgressBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -597,14 +628,8 @@
 
         private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
         private Telerik.WinControls.UI.Docking.DocumentContainer documentContainer2;
-        private Telerik.WinControls.UI.RadPanel menuPanel;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         public Telerik.WinControls.UI.RadButton button1;
-        private Telerik.WinControls.UI.RadButton button2;
-        private Telerik.WinControls.UI.RadButton buttonTeachers;
-        private Telerik.WinControls.UI.RadButton buttonSpecialty;
-        private Telerik.WinControls.UI.RadButton buttonEmployee;
         public scheduleDataSetTableAdapters.TableAdapterManager tableMGMT;
         private scheduleDataSetTableAdapters.cabinetTableAdapter cabinetTableAdapter;
         private scheduleDataSetTableAdapters.disciplineTableAdapter disciplineTableAdapter;
@@ -615,15 +640,10 @@
         private System.Windows.Forms.BindingSource specialtyBindingSource;
         private System.Windows.Forms.BindingSource time_work_teachersBindingSource;
         public scheduleDataSetTableAdapters.time_work_teachersTableAdapter time_work_teachersTableAdapter;
-        private Telerik.WinControls.UI.RadButton groupButton;
         public scheduleDataSet scheduleDataSet;
         private scheduleDataSetTableAdapters.courseTableAdapter courseTableAdapter;
         public System.Windows.Forms.BindingSource courseBindingSource;
-        private Telerik.WinControls.UI.RadButton teacherDisceplineButton;
-        private Telerik.WinControls.UI.RadButton cabinetDisciplineButton;
-        private Telerik.WinControls.UI.RadButton specialtyCourseButton;
         private Telerik.WinControls.UI.RadPanel radPanel1;
-        private Telerik.WinControls.UI.RadButton fragmentSummaryButton;
         private scheduleDataSetTableAdapters.teacherTableAdapter teacherTableAdapter;
         private System.Windows.Forms.BindingSource teacherBindingSource;
         private scheduleDataSetTableAdapters.discipline_cabinetTableAdapter discipline_cabinetTableAdapter;
@@ -632,7 +652,6 @@
         private Telerik.WinControls.UI.RadMenuItem radMenuItem3;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem4;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem5;
-        private Telerik.WinControls.UI.RadMenu radMenu1;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem6;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem7;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem8;
@@ -642,12 +661,24 @@
         private Telerik.WinControls.UI.RadMenuItem radMenuItem12;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem13;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem14;
-        private Telerik.WinControls.UI.RadMenuItem radMenuItem15;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem16;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem17;
         private Telerik.WinControls.UI.RadMenuItem radMenuItem18;
         public System.Windows.Forms.BindingSource cabinetBindingSource;
-        private Telerik.WinControls.UI.RadButton scheduleButton;
-
+        private Telerik.WinControls.UI.RadMenu radMenu1;
+        public Telerik.WinControls.UI.RadPanel menuPanel;
+        public System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        public Telerik.WinControls.UI.RadButton button2;
+        public Telerik.WinControls.UI.RadButton buttonTeachers;
+        public Telerik.WinControls.UI.RadButton buttonSpecialty;
+        public Telerik.WinControls.UI.RadButton buttonEmployee;
+        public Telerik.WinControls.UI.RadButton groupButton;
+        public Telerik.WinControls.UI.RadButton teacherDisceplineButton;
+        public Telerik.WinControls.UI.RadButton cabinetDisciplineButton;
+        public Telerik.WinControls.UI.RadButton specialtyCourseButton;
+        public Telerik.WinControls.UI.RadButton fragmentSummaryButton;
+        public Telerik.WinControls.UI.RadButton scheduleButton;
+        private Telerik.WinControls.UI.RadProgressBar radProgressBar1;
+        private System.Windows.Forms.Timer timer1;
     }
 }

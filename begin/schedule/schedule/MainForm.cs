@@ -11,6 +11,7 @@ using Telerik.WinControls.UI.Localization;
 using Telerik.WinControls.UI;
 using System.Data.OleDb;
 using System.Data.SqlClient;
+using System.Threading;
 
 namespace schedule
 {
@@ -40,6 +41,7 @@ namespace schedule
             this.courseTableAdapter.Fill(this.scheduleDataSet.course);
             this.teacherTableAdapter.Fill(this.scheduleDataSet.teacher);
             this.discipline_cabinetTableAdapter.Fill(this.scheduleDataSet.discipline_cabinet);
+            radProgressBar1.Visible = false;
         }
 
         public int countPanel = 0;
@@ -50,6 +52,7 @@ namespace schedule
             PanelTable panelCabinet = new PanelTable(this, cabinetBindingSource, button1);
             panelCabinet.Dock = DockStyle.Left;
             countPanel++;
+            this.cabinetTableAdapter.Fill(this.scheduleDataSet.cabinet);
             //tableLayoutPanel1.Controls.Add(panelCabinet, 1, 1);
             radPanel1.Controls.Add(panelCabinet);
 
@@ -76,7 +79,7 @@ namespace schedule
 
             panelDiscipline.Dock = DockStyle.Left;
             countPanel++;
-
+            this.disciplineTableAdapter.Fill(this.scheduleDataSet.discipline);
             //tableLayoutPanel1.Controls.Add(panelCabinet, 1, 1);
             radPanel1.Controls.Add(panelDiscipline);
 
@@ -87,7 +90,7 @@ namespace schedule
             panelDiscipline.radGridView1.DataSource = disciplineBindingSource;
             panelDiscipline.radGridView1.Columns[0].IsVisible = false;
             panelDiscipline.radGridView1.Columns[1].HeaderText = "Наименование дисциплины";
-            panelDiscipline.radGridView1.Columns[1].Width = 420;
+            panelDiscipline.radGridView1.Columns[1].Width = 415;
         }
 
         private void buttonTeachers_Click(object sender, EventArgs e) {
@@ -95,6 +98,7 @@ namespace schedule
 
             panelEmployee.Dock = DockStyle.Left;
             countPanel++;
+            this.employeeTableAdapter.Fill(this.scheduleDataSet.employee);
             //tableLayoutPanel1.Controls.Add(panelCabinet, 1, 1);
             radPanel1.Controls.Add(panelEmployee);
 
@@ -113,10 +117,11 @@ namespace schedule
 
             panelSpecialty.Dock = DockStyle.Left;
             countPanel++;
+            this.specialtyTableAdapter.Fill(this.scheduleDataSet.specialty);
             //tableLayoutPanel1.Controls.Add(panelCabinet, 1, 1);
             radPanel1.Controls.Add(panelSpecialty);
 
-            panelSpecialty.header.Text = "Специальность";
+            panelSpecialty.header.Text = "Специальности";
 
             buttonSpecialty.Enabled = false;
 
@@ -132,7 +137,7 @@ namespace schedule
             busy.Dock = DockStyle.Left;
 
             //tableLayoutPanel1.Controls.Add(panelCabinet, 1, 1);
-            radPanel1.Controls.Add(busy);
+            this.employeeTableAdapter.Fill(this.scheduleDataSet.employee);
 
             buttonEmployee.Enabled = false;
 
@@ -140,11 +145,21 @@ namespace schedule
             busy.radGridView1.Columns[0].IsVisible = false;
             busy.radGridView1.Columns[1].HeaderText = "ФИО Преподавателя";
             busy.radGridView1.Columns[1].Width = 410;
+            radPanel1.Controls.Add(busy);
         }
 
         private void groupButton_Click(object sender, EventArgs e) {
             panelJoin = new PanelJoin(this, specialtyBindingSource, groupButton);
             panelJoin.Dock = DockStyle.Left;
+
+            this.cabinetTableAdapter.Fill(this.scheduleDataSet.cabinet);
+            this.disciplineTableAdapter.Fill(this.scheduleDataSet.discipline);
+            this.employeeTableAdapter.Fill(this.scheduleDataSet.employee);
+            this.specialtyTableAdapter.Fill(this.scheduleDataSet.specialty);
+            this.time_work_teachersTableAdapter.Fill(this.scheduleDataSet.time_work_teachers);
+            this.courseTableAdapter.Fill(this.scheduleDataSet.course);
+            this.teacherTableAdapter.Fill(this.scheduleDataSet.teacher);
+            this.discipline_cabinetTableAdapter.Fill(this.scheduleDataSet.discipline_cabinet);
 
             groupButton.Enabled = false;
             //tableLayoutPanel1.Controls.Add(panelCabinet, 1, 1);
@@ -174,7 +189,7 @@ namespace schedule
             //Кнопку на СОХРАНИТЬ
             //Считывание с таблицы
             //
-
+            this.employeeTableAdapter.Fill(this.scheduleDataSet.employee);
             teacherDisceplineButton.Enabled = false;
             panelJoin = new PanelJoin(this, specialtyBindingSource, teacherDisceplineButton);
             panelJoin.Dock = DockStyle.Left;
@@ -280,6 +295,8 @@ namespace schedule
             cabinetDisciplineButton.Enabled = false;
             twoDownView = new PanelTwoDownView(this, disciplineBindingSource, cabinetDisciplineButton);
             twoDownView.Dock = DockStyle.Left;
+
+            this.discipline_cabinetTableAdapter.Fill(this.scheduleDataSet.discipline_cabinet);
 
             twoDownView.Width -= 150;
             twoDownView.radPanel1.Width -=150;
@@ -396,6 +413,8 @@ namespace schedule
             }
             
             sqlConnection.Close();
+            tableMGMT.UpdateAll(scheduleDataSet);
+            this.discipline_cabinetTableAdapter.Fill(this.scheduleDataSet.discipline_cabinet);
 
         }
 
@@ -432,8 +451,18 @@ namespace schedule
                 Width = 250
             };
 
+
             twoDownView.radGridView2.Columns.Add(disceplineColumn);
             twoDownView.radGridView2.Columns.Add(supplierColumn);
+            twoDownView.radGridView2.Rows.Add("Русский язык", "Иванов Иван Иванович");
+            twoDownView.radGridView2.Rows.Add("Иностранный язык", "Семёнов Николай Геннадьевич");
+            twoDownView.radGridView2.Rows.Add("История", "Калюжная Маргарита Вячеславовна");
+            twoDownView.radGridView2.Rows.Add("Физическая культура", "Шевченко Елена Викторовна");
+            twoDownView.radGridView2.Rows.Add("ОБЖ", "Семёнов Николай Геннадьевич");
+            twoDownView.radGridView2.Rows.Add("Обществознание", "Калюжная Маргарита Вячеславовна");
+            twoDownView.radGridView2.Rows.Add("Математика", "Сахарова Наталья Евгеньевна");
+
+
             twoDownView.radGridView2.Height -= 110;
 
             buttonSave = new RadButton();
@@ -456,15 +485,23 @@ namespace schedule
             //twoDownView.radGridView2.Columns[1].Width = 250;
             //twoDownView.radGridView2.Columns[1].HeaderText = "Наименование дисциплины";
 
-            //twoDownView.radBindingNavigator1.BindingSource = bindingSource;
+            //twoDownView.radBindingNavigator1.DataBindings = twoDownView.radGridView2.DataBindings;
         }
-
+        int digit = 0;
         private void ButtonSave_Click2(object sender, EventArgs e) {
+            if (digit == 1) {
+                twoDownView.Width -= 500;
+                twoDownView.radPanel1.Width -= 480;
+                twoDownView.radPanel2.Width -= 480;
+                buttonSave.Text = "Добавить";
+                digit = 0;
+                twoDownView.closePanel.Location = new Point(twoDownView.closePanel.Location.X - 480, 12);
+                return;
+            }
             twoDownView.Width += 500;
             twoDownView.radPanel1.Width += 480;
             twoDownView.radPanel2.Width += 480;
-
-            addTeachers addTeachers = new addTeachers();
+            addTeachers addTeachers = new addTeachers(twoDownView.radGridView2, twoDownView.radBindingNavigator1);
             twoDownView.radPanel2.Controls.Add(addTeachers);
             addTeachers.Location = new Point(625, 12);
             twoDownView.closePanel.Location = new Point(twoDownView.closePanel.Location.X + 480, 12);
@@ -482,7 +519,7 @@ namespace schedule
             addTeachers.radGridView2.MasterTemplate.Columns.Add(checkBoxColumn);
             addTeachers.radGridView2.MasterTemplate.Columns.Add(gridViewTextBoxColumn);
 
-
+            addTeachers.radGridView2.Rows.Add(false, "Русский язык");
             addTeachers.radGridView2.Columns[0].Width = 70;
             addTeachers.radGridView2.Columns[1].HeaderText = "Наименование дисциплины";
             addTeachers.radGridView2.Columns[1].Width = 320;
@@ -494,7 +531,7 @@ namespace schedule
             addTeachers.radDropDownList1.ValueMember = "FIO";
 
             buttonSave.Text = "Закрыть";
-
+            digit = 1;
 
         }
 
@@ -593,7 +630,7 @@ namespace schedule
                     idDiscipline = scheduleDataSet.Tables["discipline"].Rows[i][0].ToString();
                 }
             }
-
+            
             try {
                 numCourse = twoDownView.radDropDownList2.SelectedItem.Text;
             }
@@ -615,8 +652,8 @@ namespace schedule
                     course = "4";
                     break;
             }
-
             for (int i = 0; i < scheduleDataSet.Tables["discipline_cabinet"].Rows.Count; i++) {
+                int j = twoDownView.radGridView2.RowCount;
                 if (scheduleDataSet.Tables["discipline_cabinet"].Rows[i][0].ToString() == idDiscipline && scheduleDataSet.Tables["discipline_cabinet"].Rows[i][2].ToString() == course) {
                     string cab = twoDownView.radGridView2.Rows[i].Cells[1].Value.ToString();
                     if (scheduleDataSet.Tables["discipline_cabinet"].Rows[i][1].ToString() == cab) {
@@ -674,19 +711,36 @@ namespace schedule
         }
 
         private void radMenuItem17_Click(object sender, EventArgs e) {
-           
+            Report report = new Report();
+            report.radPdfViewer1.LoadDocument("D:\\OneDrive\\work\\diplom\\begin\\screenshot\\Отчёты\\Список групп.pdf");
+            report.Show();
         }
 
         private void radMenuItem18_Click(object sender, EventArgs e) {
             this.Close();
         }
 
+        private int digit0 = 0;
+        GeneralSchedulecs generalSchedule;
         private void scheduleButton_Click(object sender, EventArgs e) {
-            GeneralSchedulecs generalSchedule = new GeneralSchedulecs();
-            generalSchedule.Width = radPanel1.Width-20;
-            //generalSchedule.Height = radPanel1.Height;
 
-            radPanel1.Controls.Add(generalSchedule);
+
+
+            generalSchedule = new GeneralSchedulecs();
+            if (digit0 == 1) {
+                //generalSchedule.Dispose();
+                radPanel1.Controls.Clear();
+                digit0 = 0;
+                return;
+            }
+            else {
+                timer1.Enabled = true;
+                digit0 = 1;
+                generalSchedule.Width = radPanel1.Width - 20;
+                //generalSchedule.Height = radPanel1.Height;
+                Thread.Sleep(600);
+            }
+
         }
 
         private void radMenuItem11_Click(object sender, EventArgs e) {
@@ -695,8 +749,49 @@ namespace schedule
         }
 
         private void radMenuItem10_Click(object sender, EventArgs e) {
-            Settings settings = new Settings();
+            Settings settings = new Settings(this);
             settings.Show();
+        }
+
+        private void radMenuItem12_Click(object sender, EventArgs e) {
+            Report report = new Report();
+            report.radPdfViewer1.LoadDocument("D:\\OneDrive\\work\\diplom\\begin\\screenshot\\Отчёты\\Расписание.pdf");
+            report.Show();
+
+        }
+
+        private void radMenuItem13_Click(object sender, EventArgs e) {
+            Report report = new Report();
+            report.radPdfViewer1.LoadDocument("D:\\OneDrive\\work\\diplom\\begin\\screenshot\\Отчёты\\Сводная выписка.pdf");
+            report.Show();
+        }
+
+        private void radMenuItem14_Click(object sender, EventArgs e) {
+            Report report = new Report();
+            report.radPdfViewer1.LoadDocument("D:\\OneDrive\\work\\diplom\\begin\\screenshot\\Отчёты\\Дисциплины преподавателя.pdf");
+            report.Show();
+        }
+
+        private void radMenuItem15_Click(object sender, EventArgs e) {
+
+        }
+
+        private void radMenuItem16_Click(object sender, EventArgs e) {
+            Report report = new Report();
+            report.radPdfViewer1.LoadDocument("D:\\OneDrive\\work\\diplom\\begin\\screenshot\\Отчёты\\Время работы преподавателя.pdf");
+            report.Show();
+        }
+        int ticks = 0;
+        private void timer1_Tick(object sender, EventArgs e) {
+            radProgressBar1.Visible = true;
+            ticks += 2;
+            radProgressBar1.Value1 = ticks;
+            if (ticks == 100) {
+                timer1.Enabled = false;
+                radProgressBar1.Visible = false;
+                radPanel1.Controls.Add(generalSchedule);
+                ticks = 0;
+            }
         }
     }
 }

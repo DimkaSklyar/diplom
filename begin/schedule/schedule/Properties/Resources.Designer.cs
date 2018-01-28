@@ -133,9 +133,29 @@ namespace schedule.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dt {
+            get {
+                object obj = ResourceManager.GetObject("dt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap flower_icon {
             get {
                 object obj = ResourceManager.GetObject("flower-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fs {
+            get {
+                object obj = ResourceManager.GetObject("fs", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,6 +253,16 @@ namespace schedule.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap specialty1 {
+            get {
+                object obj = ResourceManager.GetObject("specialty1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap teacher {
             get {
                 object obj = ResourceManager.GetObject("teacher", resourceCulture);
@@ -246,6 +276,16 @@ namespace schedule.Properties {
         internal static System.Drawing.Bitmap teacherf {
             get {
                 object obj = ResourceManager.GetObject("teacherf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap time1 {
+            get {
+                object obj = ResourceManager.GetObject("time1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -44,6 +44,7 @@
             this.radDropDownList1.TabIndex = 4;
             this.radDropDownList1.ThemeName = "Material";
             this.radDropDownList1.ValueMember = "name_specialty";
+            this.radDropDownList1.SelectedValueChanged += new System.EventHandler(this.radDropDownList1_SelectedValueChanged);
             // 
             // radGridView2
             // 
@@ -52,6 +53,7 @@
             // 
             // 
             this.radGridView2.MasterTemplate.AddNewRowPosition = Telerik.WinControls.UI.SystemRowPosition.Bottom;
+            this.radGridView2.MasterTemplate.AllowAddNewRow = false;
             this.radGridView2.MasterTemplate.EnableGrouping = false;
             this.radGridView2.MasterTemplate.ViewDefinition = tableViewDefinition1;
             this.radGridView2.Name = "radGridView2";
@@ -72,6 +74,7 @@
             this.radButton1.TabIndex = 5;
             this.radButton1.Text = "Добавить";
             this.radButton1.ThemeName = "Material";
+            this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
             // 
             // addTeachers
             // 

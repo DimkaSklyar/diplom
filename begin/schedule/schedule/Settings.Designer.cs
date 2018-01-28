@@ -84,6 +84,7 @@
             this.radTextBox3.Name = "radTextBox3";
             this.radTextBox3.Size = new System.Drawing.Size(39, 36);
             this.radTextBox3.TabIndex = 1;
+            this.radTextBox3.Text = "23";
             this.radTextBox3.ThemeName = "Material";
             // 
             // radTextBox2
@@ -92,6 +93,7 @@
             this.radTextBox2.Name = "radTextBox2";
             this.radTextBox2.Size = new System.Drawing.Size(44, 36);
             this.radTextBox2.TabIndex = 1;
+            this.radTextBox2.Text = "16";
             this.radTextBox2.ThemeName = "Material";
             // 
             // radLabel2
@@ -131,10 +133,20 @@
             // 
             this.radSpinEditor1.Location = new System.Drawing.Point(184, 16);
             this.radSpinEditor1.Name = "radSpinEditor1";
+            this.radSpinEditor1.NullableValue = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
             this.radSpinEditor1.Size = new System.Drawing.Size(57, 36);
             this.radSpinEditor1.TabIndex = 1;
             this.radSpinEditor1.TabStop = false;
             this.radSpinEditor1.ThemeName = "Material";
+            this.radSpinEditor1.Value = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
             // 
             // radLabel4
             // 
@@ -164,10 +176,11 @@
             this.radCheckBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F);
             this.radCheckBox1.Location = new System.Drawing.Point(19, 33);
             this.radCheckBox1.Name = "radCheckBox1";
-            this.radCheckBox1.Size = new System.Drawing.Size(134, 20);
+            this.radCheckBox1.Size = new System.Drawing.Size(137, 18);
             this.radCheckBox1.TabIndex = 1;
             this.radCheckBox1.Text = "Подписи иконок:";
             this.radCheckBox1.ThemeName = "Material";
+            this.radCheckBox1.ToggleStateChanged += new Telerik.WinControls.UI.StateChangedEventHandler(this.radCheckBox1_ToggleStateChanged);
             // 
             // radButton1
             // 
@@ -196,7 +209,7 @@
             this.radBrowseEditor1.ForeColor = System.Drawing.Color.Silver;
             this.radBrowseEditor1.Location = new System.Drawing.Point(156, 25);
             this.radBrowseEditor1.Name = "radBrowseEditor1";
-            this.radBrowseEditor1.Size = new System.Drawing.Size(313, 36);
+            this.radBrowseEditor1.Size = new System.Drawing.Size(370, 36);
             this.radBrowseEditor1.TabIndex = 0;
             this.radBrowseEditor1.Text = "|DataDirectory|\\\\schedule.accdb";
             this.radBrowseEditor1.ThemeName = "Material";
@@ -216,7 +229,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(544, 336);
+            this.ClientSize = new System.Drawing.Size(548, 338);
             this.Controls.Add(this.radButton1);
             this.Controls.Add(this.radGroupBox4);
             this.Controls.Add(this.radGroupBox3);

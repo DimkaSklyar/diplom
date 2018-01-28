@@ -121,26 +121,35 @@
   <data name="rat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="schedule" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\schedule.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ciyyE_aD26Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ciyyE_aD26Q.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gs" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="discipline" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\discipline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="teacher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teacher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flower-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flower-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="teacher" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\teacher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="schedule" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\schedule.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="teacherf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\teacherf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="group-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\group-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="specialty1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\specialty.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,11 +160,14 @@
   <data name="specialty" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\specialty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="flower-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\flower-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="time1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\time1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cabinet_ff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cabinet_ff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="discipline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\discipline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="close2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,7 +184,7 @@
   <data name="close1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ciyyE_aD26Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ciyyE_aD26Q.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

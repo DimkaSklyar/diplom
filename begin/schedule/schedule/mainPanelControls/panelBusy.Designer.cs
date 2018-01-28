@@ -25,7 +25,7 @@
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PanelBusy));
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition4 = new Telerik.WinControls.UI.TableViewDefinition();
             this.employeeTableAdapter = new schedule.scheduleDataSetTableAdapters.employeeTableAdapter();
             this.scheduleDataSet = new schedule.scheduleDataSet();
             this.header = new Telerik.WinControls.UI.RadLabel();
@@ -127,9 +127,9 @@
             this.header.ForeColor = System.Drawing.Color.Gray;
             this.header.Location = new System.Drawing.Point(10, 14);
             this.header.Name = "header";
-            this.header.Size = new System.Drawing.Size(371, 32);
+            this.header.Size = new System.Drawing.Size(386, 32);
             this.header.TabIndex = 6;
-            this.header.Text = "Время работы преподавателя";
+            this.header.Text = "Время работы преподавателей";
             this.header.ThemeName = "Material";
             // 
             // employeeBindingSource
@@ -445,6 +445,7 @@
             // radBindingNavigator1
             // 
             this.radBindingNavigator1.BindingSource = this.employeeBindingSource;
+            this.radBindingNavigator1.CountItemFormat = "из {0}";
             this.radBindingNavigator1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.radBindingNavigator1.Location = new System.Drawing.Point(0, 811);
             this.radBindingNavigator1.Name = "radBindingNavigator1";
@@ -585,7 +586,7 @@
             // 
             // 
             this.radGridView1.MasterTemplate.SelectionMode = Telerik.WinControls.UI.GridViewSelectionMode.CellSelect;
-            this.radGridView1.MasterTemplate.ViewDefinition = tableViewDefinition1;
+            this.radGridView1.MasterTemplate.ViewDefinition = tableViewDefinition4;
             this.radGridView1.Name = "radGridView1";
             this.radGridView1.ReadOnly = true;
             this.radGridView1.ShowGroupPanel = false;

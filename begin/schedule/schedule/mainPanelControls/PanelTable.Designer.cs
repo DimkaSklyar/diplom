@@ -25,7 +25,7 @@
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PanelTable));
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition3 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition2 = new Telerik.WinControls.UI.TableViewDefinition();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.radBindingNavigator1 = new Telerik.WinControls.UI.RadBindingNavigator();
             this.radBindingNavigator1RowElement = new Telerik.WinControls.UI.CommandBarRowElement();
@@ -74,6 +74,7 @@
             // 
             // radBindingNavigator1
             // 
+            this.radBindingNavigator1.CountItemFormat = "из {0}";
             this.radBindingNavigator1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.radBindingNavigator1.Location = new System.Drawing.Point(0, 778);
             this.radBindingNavigator1.Name = "radBindingNavigator1";
@@ -146,7 +147,7 @@
             // radBindingNavigator1CountItem
             // 
             this.radBindingNavigator1CountItem.Name = "radBindingNavigator1CountItem";
-            this.radBindingNavigator1CountItem.Text = "of {0}";
+            this.radBindingNavigator1CountItem.Text = "из {0}";
             // 
             // commandBarSeparator3
             // 
@@ -238,7 +239,7 @@
             // 
             // 
             this.radGridView1.MasterTemplate.AddNewRowPosition = Telerik.WinControls.UI.SystemRowPosition.Bottom;
-            this.radGridView1.MasterTemplate.ViewDefinition = tableViewDefinition3;
+            this.radGridView1.MasterTemplate.ViewDefinition = tableViewDefinition2;
             this.radGridView1.Name = "radGridView1";
             this.radGridView1.ShowGroupPanel = false;
             this.radGridView1.Size = new System.Drawing.Size(480, 703);

@@ -70,7 +70,7 @@
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel.Size = new System.Drawing.Size(445, 268);
+            this.tableLayoutPanel.Size = new System.Drawing.Size(449, 270);
             this.tableLayoutPanel.TabIndex = 0;
             // 
             // logoPictureBox
@@ -80,7 +80,7 @@
             this.logoPictureBox.Location = new System.Drawing.Point(3, 3);
             this.logoPictureBox.Name = "logoPictureBox";
             this.tableLayoutPanel.SetRowSpan(this.logoPictureBox, 6);
-            this.logoPictureBox.Size = new System.Drawing.Size(140, 262);
+            this.logoPictureBox.Size = new System.Drawing.Size(142, 264);
             this.logoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.logoPictureBox.TabIndex = 12;
             this.logoPictureBox.TabStop = false;
@@ -88,7 +88,7 @@
             // radLabelProductName
             // 
             this.radLabelProductName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radLabelProductName.Location = new System.Drawing.Point(152, 0);
+            this.radLabelProductName.Location = new System.Drawing.Point(154, 0);
             this.radLabelProductName.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
             this.radLabelProductName.MaximumSize = new System.Drawing.Size(0, 17);
             this.radLabelProductName.Name = "radLabelProductName";
@@ -104,7 +104,7 @@
             // radLabelVersion
             // 
             this.radLabelVersion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radLabelVersion.Location = new System.Drawing.Point(152, 26);
+            this.radLabelVersion.Location = new System.Drawing.Point(154, 27);
             this.radLabelVersion.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
             this.radLabelVersion.MaximumSize = new System.Drawing.Size(0, 17);
             this.radLabelVersion.Name = "radLabelVersion";
@@ -120,7 +120,7 @@
             // radLabelCopyright
             // 
             this.radLabelCopyright.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radLabelCopyright.Location = new System.Drawing.Point(152, 52);
+            this.radLabelCopyright.Location = new System.Drawing.Point(154, 54);
             this.radLabelCopyright.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
             this.radLabelCopyright.MaximumSize = new System.Drawing.Size(0, 17);
             this.radLabelCopyright.Name = "radLabelCopyright";
@@ -136,7 +136,7 @@
             // radLabelCompanyName
             // 
             this.radLabelCompanyName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radLabelCompanyName.Location = new System.Drawing.Point(152, 78);
+            this.radLabelCompanyName.Location = new System.Drawing.Point(154, 81);
             this.radLabelCompanyName.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
             this.radLabelCompanyName.MaximumSize = new System.Drawing.Size(0, 17);
             this.radLabelCompanyName.Name = "radLabelCompanyName";
@@ -154,13 +154,13 @@
             this.radTextBoxDescription.AutoSize = false;
             this.radTextBoxDescription.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radTextBoxDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F);
-            this.radTextBoxDescription.Location = new System.Drawing.Point(152, 107);
+            this.radTextBoxDescription.Location = new System.Drawing.Point(154, 111);
             this.radTextBoxDescription.Margin = new System.Windows.Forms.Padding(6, 3, 3, 3);
             this.radTextBoxDescription.Multiline = true;
             this.radTextBoxDescription.Name = "radTextBoxDescription";
             this.radTextBoxDescription.ReadOnly = true;
             this.radTextBoxDescription.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.radTextBoxDescription.Size = new System.Drawing.Size(290, 128);
+            this.radTextBoxDescription.Size = new System.Drawing.Size(292, 129);
             this.radTextBoxDescription.TabIndex = 23;
             this.radTextBoxDescription.TabStop = false;
             this.radTextBoxDescription.Text = resources.GetString("radTextBoxDescription.Text");
@@ -170,9 +170,9 @@
             // 
             this.okRadButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.okRadButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.okRadButton.Location = new System.Drawing.Point(367, 241);
+            this.okRadButton.Location = new System.Drawing.Point(371, 246);
             this.okRadButton.Name = "okRadButton";
-            this.okRadButton.Size = new System.Drawing.Size(75, 24);
+            this.okRadButton.Size = new System.Drawing.Size(75, 21);
             this.okRadButton.TabIndex = 24;
             this.okRadButton.Text = "&OK";
             this.okRadButton.ThemeName = "Material";
@@ -183,7 +183,7 @@
             this.AcceptButton = this.okRadButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(463, 286);
+            this.ClientSize = new System.Drawing.Size(467, 288);
             this.Controls.Add(this.tableLayoutPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;

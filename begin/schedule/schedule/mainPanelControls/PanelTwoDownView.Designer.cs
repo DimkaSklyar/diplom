@@ -24,14 +24,15 @@
         /// </summary>
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
-            Telerik.WinControls.UI.RadListDataItem radListDataItem1 = new Telerik.WinControls.UI.RadListDataItem();
-            Telerik.WinControls.UI.RadListDataItem radListDataItem2 = new Telerik.WinControls.UI.RadListDataItem();
-            Telerik.WinControls.UI.RadListDataItem radListDataItem3 = new Telerik.WinControls.UI.RadListDataItem();
-            Telerik.WinControls.UI.RadListDataItem radListDataItem4 = new Telerik.WinControls.UI.RadListDataItem();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition2 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.RadListDataItem radListDataItem5 = new Telerik.WinControls.UI.RadListDataItem();
+            Telerik.WinControls.UI.RadListDataItem radListDataItem6 = new Telerik.WinControls.UI.RadListDataItem();
+            Telerik.WinControls.UI.RadListDataItem radListDataItem7 = new Telerik.WinControls.UI.RadListDataItem();
+            Telerik.WinControls.UI.RadListDataItem radListDataItem8 = new Telerik.WinControls.UI.RadListDataItem();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PanelTwoDownView));
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.radPanel2 = new Telerik.WinControls.UI.RadPanel();
+            this.radGridView2 = new Telerik.WinControls.UI.RadGridView();
             this.radDropDownList2 = new Telerik.WinControls.UI.RadDropDownList();
             this.radDropDownList1 = new Telerik.WinControls.UI.RadDropDownList();
             this.radBindingNavigator1 = new Telerik.WinControls.UI.RadBindingNavigator();
@@ -55,18 +56,17 @@
             this.header = new Telerik.WinControls.UI.RadLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.radGridView2 = new Telerik.WinControls.UI.RadGridView();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
             this.radPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel2)).BeginInit();
             this.radPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radGridView2.MasterTemplate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radDropDownList2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radDropDownList1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radBindingNavigator1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.closePanel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.header)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radGridView2.MasterTemplate)).BeginInit();
             this.SuspendLayout();
             // 
             // radPanel1
@@ -93,18 +93,34 @@
             this.radPanel2.TabIndex = 10;
             this.radPanel2.ThemeName = "Material";
             // 
+            // radGridView2
+            // 
+            this.radGridView2.Location = new System.Drawing.Point(12, 125);
+            // 
+            // 
+            // 
+            this.radGridView2.MasterTemplate.AllowAddNewRow = false;
+            this.radGridView2.MasterTemplate.ViewDefinition = tableViewDefinition2;
+            this.radGridView2.Name = "radGridView2";
+            this.radGridView2.ReadOnly = true;
+            this.radGridView2.ShowGroupPanel = false;
+            this.radGridView2.Size = new System.Drawing.Size(606, 210);
+            this.radGridView2.TabIndex = 3;
+            this.radGridView2.Text = "radGridView1";
+            this.radGridView2.ThemeName = "Material";
+            // 
             // radDropDownList2
             // 
             this.radDropDownList2.DisplayMember = "name_specialty";
             this.radDropDownList2.EnableKeyMap = true;
-            radListDataItem1.Text = "1 Курс";
-            radListDataItem2.Text = "2 Курс";
-            radListDataItem3.Text = "3 Курс";
-            radListDataItem4.Text = "4 Курс";
-            this.radDropDownList2.Items.Add(radListDataItem1);
-            this.radDropDownList2.Items.Add(radListDataItem2);
-            this.radDropDownList2.Items.Add(radListDataItem3);
-            this.radDropDownList2.Items.Add(radListDataItem4);
+            radListDataItem5.Text = "1 Курс";
+            radListDataItem6.Text = "2 Курс";
+            radListDataItem7.Text = "3 Курс";
+            radListDataItem8.Text = "4 Курс";
+            this.radDropDownList2.Items.Add(radListDataItem5);
+            this.radDropDownList2.Items.Add(radListDataItem6);
+            this.radDropDownList2.Items.Add(radListDataItem7);
+            this.radDropDownList2.Items.Add(radListDataItem8);
             this.radDropDownList2.Location = new System.Drawing.Point(12, 69);
             this.radDropDownList2.Name = "radDropDownList2";
             this.radDropDownList2.Size = new System.Drawing.Size(606, 36);
@@ -125,6 +141,7 @@
             // 
             // radBindingNavigator1
             // 
+            this.radBindingNavigator1.CountItemFormat = "из {0}";
             this.radBindingNavigator1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.radBindingNavigator1.Location = new System.Drawing.Point(0, 759);
             this.radBindingNavigator1.Name = "radBindingNavigator1";
@@ -213,6 +230,7 @@
             // 
             this.radBindingNavigator1PositionItem.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.radBindingNavigator1PositionItem.Name = "radBindingNavigator1PositionItem";
+            this.radBindingNavigator1PositionItem.Text = "7";
             this.radBindingNavigator1PositionItem.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.radBindingNavigator1PositionItem.UseCompatibleTextRendering = false;
             // 
@@ -220,7 +238,7 @@
             // 
             this.radBindingNavigator1CountItem.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.radBindingNavigator1CountItem.Name = "radBindingNavigator1CountItem";
-            this.radBindingNavigator1CountItem.Text = "of {0}";
+            this.radBindingNavigator1CountItem.Text = "из 7";
             this.radBindingNavigator1CountItem.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.radBindingNavigator1CountItem.UseCompatibleTextRendering = false;
             // 
@@ -341,20 +359,6 @@
             this.timer2.Interval = 5;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
-            // radGridView2
-            // 
-            this.radGridView2.Location = new System.Drawing.Point(12, 125);
-            // 
-            // 
-            // 
-            this.radGridView2.MasterTemplate.ViewDefinition = tableViewDefinition1;
-            this.radGridView2.Name = "radGridView2";
-            this.radGridView2.ShowGroupPanel = false;
-            this.radGridView2.Size = new System.Drawing.Size(606, 210);
-            this.radGridView2.TabIndex = 3;
-            this.radGridView2.Text = "radGridView1";
-            this.radGridView2.ThemeName = "Material";
-            // 
             // PanelTwoDownView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -368,13 +372,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.radPanel2)).EndInit();
             this.radPanel2.ResumeLayout(false);
             this.radPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radGridView2.MasterTemplate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radDropDownList2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radDropDownList1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radBindingNavigator1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.closePanel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.header)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radGridView2.MasterTemplate)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }

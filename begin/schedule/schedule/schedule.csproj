@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_0.4.10|x86'">
+    <OutputPath>bin\x86\Release_0.4.10\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.AnalysisServices.AdomdClient, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="PresentationCore" />
@@ -287,6 +290,10 @@
     <None Include="Resources\rat.jpg" />
     <None Include="Resources\schedule.jpg" />
     <None Include="Resources\ciyyE_aD26Q.jpg" />
+    <None Include="Resources\specialty.jpg" />
+    <None Include="Resources\time1.jpg" />
+    <None Include="Resources\dt.jpg" />
+    <None Include="Resources\fs.jpg" />
     <Content Include="schedule.accdb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

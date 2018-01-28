@@ -241,6 +241,7 @@
             this.layoutControlLabelItem59 = new Telerik.WinControls.UI.LayoutControlLabelItem();
             this.layoutControlItem1 = new Telerik.WinControls.UI.LayoutControlItem();
             this.layoutControlLabelItem165 = new Telerik.WinControls.UI.LayoutControlLabelItem();
+            this.layoutControlLabelItem159 = new Telerik.WinControls.UI.LayoutControlLabelItem();
             ((System.ComponentModel.ISupportInitialize)(this.radLayoutControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -256,7 +257,8 @@
             this.layoutControlLabelItem154,
             this.layoutControlTabbedGroup2,
             this.layoutControlLabelItem156,
-            this.layoutControlLabelItem157});
+            this.layoutControlLabelItem157,
+            this.layoutControlTabbedGroup26});
             this.radLayoutControl1.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlGroupItem1,
             this.layoutControlGroupItem2,
@@ -332,8 +334,7 @@
             this.layoutControlTabbedGroup3,
             this.layoutControlTabbedGroup4,
             this.layoutControlTabbedGroup25,
-            this.layoutControlLabelItem158,
-            this.layoutControlTabbedGroup26});
+            this.layoutControlLabelItem158});
             this.layoutControlGroupItem1.Name = "layoutControlGroupItem1";
             this.layoutControlGroupItem1.Text = "Понедельник";
             // 
@@ -360,42 +361,42 @@
             // 
             // layoutControlLabelItem47
             // 
-            this.layoutControlLabelItem47.Bounds = new System.Drawing.Rectangle(0, 148, 166, 39);
+            this.layoutControlLabelItem47.Bounds = new System.Drawing.Rectangle(0, 140, 166, 47);
             this.layoutControlLabelItem47.DrawBorder = true;
             this.layoutControlLabelItem47.Name = "layoutControlLabelItem47";
             this.layoutControlLabelItem47.Text = "-";
             // 
             // layoutControlLabelItem48
             // 
-            this.layoutControlLabelItem48.Bounds = new System.Drawing.Rectangle(0, 58, 166, 32);
+            this.layoutControlLabelItem48.Bounds = new System.Drawing.Rectangle(0, 55, 166, 30);
             this.layoutControlLabelItem48.DrawBorder = true;
             this.layoutControlLabelItem48.Name = "layoutControlLabelItem48";
             this.layoutControlLabelItem48.Text = "105 | ОБЖ | Семёнов Н. Г.";
             // 
             // layoutControlLabelItem49
             // 
-            this.layoutControlLabelItem49.Bounds = new System.Drawing.Rectangle(0, 0, 166, 27);
+            this.layoutControlLabelItem49.Bounds = new System.Drawing.Rectangle(0, 0, 166, 26);
             this.layoutControlLabelItem49.DrawBorder = true;
             this.layoutControlLabelItem49.Name = "layoutControlLabelItem49";
             this.layoutControlLabelItem49.Text = "201 | Иностранный язык | Семёнов Н. Г.";
             // 
             // layoutControlLabelItem50
             // 
-            this.layoutControlLabelItem50.Bounds = new System.Drawing.Rectangle(0, 90, 166, 28);
+            this.layoutControlLabelItem50.Bounds = new System.Drawing.Rectangle(0, 85, 166, 26);
             this.layoutControlLabelItem50.DrawBorder = true;
             this.layoutControlLabelItem50.Name = "layoutControlLabelItem50";
             this.layoutControlLabelItem50.Text = "-";
             // 
             // layoutControlLabelItem51
             // 
-            this.layoutControlLabelItem51.Bounds = new System.Drawing.Rectangle(0, 118, 166, 30);
+            this.layoutControlLabelItem51.Bounds = new System.Drawing.Rectangle(0, 111, 166, 29);
             this.layoutControlLabelItem51.DrawBorder = true;
             this.layoutControlLabelItem51.Name = "layoutControlLabelItem51";
             this.layoutControlLabelItem51.Text = "-";
             // 
             // layoutControlLabelItem52
             // 
-            this.layoutControlLabelItem52.Bounds = new System.Drawing.Rectangle(0, 27, 166, 31);
+            this.layoutControlLabelItem52.Bounds = new System.Drawing.Rectangle(0, 26, 166, 29);
             this.layoutControlLabelItem52.DrawBorder = true;
             this.layoutControlLabelItem52.Name = "layoutControlLabelItem52";
             this.layoutControlLabelItem52.Text = "100 | Русский язык | Иванов. И. И.";
@@ -423,42 +424,42 @@
             // 
             // layoutControlLabelItem53
             // 
-            this.layoutControlLabelItem53.Bounds = new System.Drawing.Rectangle(0, 149, 165, 38);
+            this.layoutControlLabelItem53.Bounds = new System.Drawing.Rectangle(0, 140, 165, 47);
             this.layoutControlLabelItem53.DrawBorder = true;
             this.layoutControlLabelItem53.Name = "layoutControlLabelItem53";
             this.layoutControlLabelItem53.Text = "-";
             // 
             // layoutControlLabelItem54
             // 
-            this.layoutControlLabelItem54.Bounds = new System.Drawing.Rectangle(0, 58, 165, 32);
+            this.layoutControlLabelItem54.Bounds = new System.Drawing.Rectangle(0, 55, 165, 30);
             this.layoutControlLabelItem54.DrawBorder = true;
             this.layoutControlLabelItem54.Name = "layoutControlLabelItem54";
             this.layoutControlLabelItem54.Text = "201 | Иностранный язык | Семёнов Н. Г.";
             // 
             // layoutControlLabelItem55
             // 
-            this.layoutControlLabelItem55.Bounds = new System.Drawing.Rectangle(0, 0, 165, 27);
+            this.layoutControlLabelItem55.Bounds = new System.Drawing.Rectangle(0, 0, 165, 26);
             this.layoutControlLabelItem55.DrawBorder = true;
             this.layoutControlLabelItem55.Name = "layoutControlLabelItem55";
             this.layoutControlLabelItem55.Text = "105 | Программирование | Полусмак В. И.";
             // 
             // layoutControlLabelItem56
             // 
-            this.layoutControlLabelItem56.Bounds = new System.Drawing.Rectangle(0, 27, 165, 31);
+            this.layoutControlLabelItem56.Bounds = new System.Drawing.Rectangle(0, 26, 165, 29);
             this.layoutControlLabelItem56.DrawBorder = true;
             this.layoutControlLabelItem56.Name = "layoutControlLabelItem56";
             this.layoutControlLabelItem56.Text = "101 | ЭВМ | Едигорян М. В.";
             // 
             // layoutControlLabelItem57
             // 
-            this.layoutControlLabelItem57.Bounds = new System.Drawing.Rectangle(0, 119, 165, 30);
+            this.layoutControlLabelItem57.Bounds = new System.Drawing.Rectangle(0, 112, 165, 28);
             this.layoutControlLabelItem57.DrawBorder = true;
             this.layoutControlLabelItem57.Name = "layoutControlLabelItem57";
             this.layoutControlLabelItem57.Text = "-";
             // 
             // layoutControlLabelItem58
             // 
-            this.layoutControlLabelItem58.Bounds = new System.Drawing.Rectangle(0, 90, 165, 29);
+            this.layoutControlLabelItem58.Bounds = new System.Drawing.Rectangle(0, 85, 165, 27);
             this.layoutControlLabelItem58.DrawBorder = true;
             this.layoutControlLabelItem58.Name = "layoutControlLabelItem58";
             this.layoutControlLabelItem58.Text = "-";
@@ -479,41 +480,42 @@
             this.layoutControlLabelItem61,
             this.layoutControlLabelItem62,
             this.layoutControlLabelItem63,
-            this.layoutControlLabelItem64});
+            this.layoutControlLabelItem64,
+            this.layoutControlLabelItem159});
             this.layoutControlGroupItem10.Name = "layoutControlGroupItem10";
             this.layoutControlGroupItem10.Text = "ПКС-2.2-16";
             // 
             // layoutControlLabelItem60
             // 
-            this.layoutControlLabelItem60.Bounds = new System.Drawing.Rectangle(0, 58, 160, 32);
+            this.layoutControlLabelItem60.Bounds = new System.Drawing.Rectangle(0, 55, 160, 30);
             this.layoutControlLabelItem60.DrawBorder = true;
             this.layoutControlLabelItem60.Name = "layoutControlLabelItem60";
             this.layoutControlLabelItem60.Text = "101 | ЭВМ | Едигорян М. В.";
             // 
             // layoutControlLabelItem61
             // 
-            this.layoutControlLabelItem61.Bounds = new System.Drawing.Rectangle(0, 0, 160, 27);
+            this.layoutControlLabelItem61.Bounds = new System.Drawing.Rectangle(0, 0, 160, 26);
             this.layoutControlLabelItem61.DrawBorder = true;
             this.layoutControlLabelItem61.Name = "layoutControlLabelItem61";
             this.layoutControlLabelItem61.Text = "-";
             // 
             // layoutControlLabelItem62
             // 
-            this.layoutControlLabelItem62.Bounds = new System.Drawing.Rectangle(0, 27, 160, 31);
+            this.layoutControlLabelItem62.Bounds = new System.Drawing.Rectangle(0, 26, 160, 29);
             this.layoutControlLabelItem62.DrawBorder = true;
             this.layoutControlLabelItem62.Name = "layoutControlLabelItem62";
             this.layoutControlLabelItem62.Text = "105 | Программирование | Полусмак В. И.";
             // 
             // layoutControlLabelItem63
             // 
-            this.layoutControlLabelItem63.Bounds = new System.Drawing.Rectangle(0, 90, 160, 28);
+            this.layoutControlLabelItem63.Bounds = new System.Drawing.Rectangle(0, 85, 160, 26);
             this.layoutControlLabelItem63.DrawBorder = true;
             this.layoutControlLabelItem63.Name = "layoutControlLabelItem63";
             this.layoutControlLabelItem63.Text = "201 | Иностранный язык | Семёнов Н. Г.";
             // 
             // layoutControlLabelItem64
             // 
-            this.layoutControlLabelItem64.Bounds = new System.Drawing.Rectangle(0, 118, 160, 69);
+            this.layoutControlLabelItem64.Bounds = new System.Drawing.Rectangle(0, 111, 160, 29);
             this.layoutControlLabelItem64.DrawBorder = true;
             this.layoutControlLabelItem64.Name = "layoutControlLabelItem64";
             this.layoutControlLabelItem64.Text = "-";
@@ -542,14 +544,14 @@
             // 
             // layoutControlLabelItem22
             // 
-            this.layoutControlLabelItem22.Bounds = new System.Drawing.Rectangle(0, 148, 163, 39);
+            this.layoutControlLabelItem22.Bounds = new System.Drawing.Rectangle(0, 140, 163, 47);
             this.layoutControlLabelItem22.DrawBorder = true;
             this.layoutControlLabelItem22.Name = "layoutControlLabelItem22";
             this.layoutControlLabelItem22.Text = "-";
             // 
             // layoutControlLabelItem24
             // 
-            this.layoutControlLabelItem24.Bounds = new System.Drawing.Rectangle(0, 58, 163, 32);
+            this.layoutControlLabelItem24.Bounds = new System.Drawing.Rectangle(0, 55, 163, 30);
             this.layoutControlLabelItem24.DrawBorder = true;
             this.layoutControlLabelItem24.Name = "layoutControlLabelItem24";
             this.layoutControlLabelItem24.ShowHorizontalLine = false;
@@ -557,35 +559,35 @@
             // 
             // layoutControlLabelItem25
             // 
-            this.layoutControlLabelItem25.Bounds = new System.Drawing.Rectangle(0, 27, 163, 31);
+            this.layoutControlLabelItem25.Bounds = new System.Drawing.Rectangle(0, 26, 163, 29);
             this.layoutControlLabelItem25.DrawBorder = true;
             this.layoutControlLabelItem25.Name = "layoutControlLabelItem25";
             this.layoutControlLabelItem25.Text = "201 | Иностранный язык | Семёнов Н. Г.";
             // 
             // layoutControlLabelItem26
             // 
-            this.layoutControlLabelItem26.Bounds = new System.Drawing.Rectangle(0, 119, 163, 29);
+            this.layoutControlLabelItem26.Bounds = new System.Drawing.Rectangle(0, 112, 163, 28);
             this.layoutControlLabelItem26.DrawBorder = true;
             this.layoutControlLabelItem26.Name = "layoutControlLabelItem26";
             this.layoutControlLabelItem26.Text = "-";
             // 
             // layoutControlLabelItem27
             // 
-            this.layoutControlLabelItem27.Bounds = new System.Drawing.Rectangle(0, 0, 163, 27);
+            this.layoutControlLabelItem27.Bounds = new System.Drawing.Rectangle(0, 0, 163, 26);
             this.layoutControlLabelItem27.DrawBorder = true;
             this.layoutControlLabelItem27.Name = "layoutControlLabelItem27";
             this.layoutControlLabelItem27.Text = "100 | Русский язык | Иванов. И. И.";
             // 
             // layoutControlLabelItem28
             // 
-            this.layoutControlLabelItem28.Bounds = new System.Drawing.Rectangle(0, 90, 163, 29);
+            this.layoutControlLabelItem28.Bounds = new System.Drawing.Rectangle(0, 85, 163, 27);
             this.layoutControlLabelItem28.DrawBorder = true;
             this.layoutControlLabelItem28.Name = "layoutControlLabelItem28";
             this.layoutControlLabelItem28.Text = "-";
             // 
             // layoutControlLabelItem158
             // 
-            this.layoutControlLabelItem158.Bounds = new System.Drawing.Rectangle(869, 0, 233, 246);
+            this.layoutControlLabelItem158.Bounds = new System.Drawing.Rectangle(694, 0, 408, 246);
             this.layoutControlLabelItem158.DrawText = false;
             this.layoutControlLabelItem158.Name = "layoutControlLabelItem158";
             // 
@@ -644,42 +646,42 @@
             // 
             // layoutControlLabelItem20
             // 
-            this.layoutControlLabelItem20.Bounds = new System.Drawing.Rectangle(0, 142, 162, 38);
+            this.layoutControlLabelItem20.Bounds = new System.Drawing.Rectangle(0, 134, 162, 46);
             this.layoutControlLabelItem20.DrawBorder = true;
             this.layoutControlLabelItem20.Name = "layoutControlLabelItem20";
             this.layoutControlLabelItem20.Text = "-";
             // 
             // layoutControlLabelItem21
             // 
-            this.layoutControlLabelItem21.Bounds = new System.Drawing.Rectangle(0, 58, 162, 29);
+            this.layoutControlLabelItem21.Bounds = new System.Drawing.Rectangle(0, 54, 162, 28);
             this.layoutControlLabelItem21.DrawBorder = true;
             this.layoutControlLabelItem21.Name = "layoutControlLabelItem21";
             this.layoutControlLabelItem21.Text = "СЗ | Физ. культура | Шевченко Е. В.";
             // 
             // layoutControlLabelItem23
             // 
-            this.layoutControlLabelItem23.Bounds = new System.Drawing.Rectangle(0, 29, 162, 29);
+            this.layoutControlLabelItem23.Bounds = new System.Drawing.Rectangle(0, 27, 162, 27);
             this.layoutControlLabelItem23.DrawBorder = true;
             this.layoutControlLabelItem23.Name = "layoutControlLabelItem23";
             this.layoutControlLabelItem23.Text = "105 | ОБЖ | Семёнов Н. Г.";
             // 
             // layoutControlLabelItem29
             // 
-            this.layoutControlLabelItem29.Bounds = new System.Drawing.Rectangle(0, 0, 162, 29);
+            this.layoutControlLabelItem29.Bounds = new System.Drawing.Rectangle(0, 0, 162, 27);
             this.layoutControlLabelItem29.DrawBorder = true;
             this.layoutControlLabelItem29.Name = "layoutControlLabelItem29";
             this.layoutControlLabelItem29.Text = "101 | История | Калюжная М. В.";
             // 
             // layoutControlLabelItem30
             // 
-            this.layoutControlLabelItem30.Bounds = new System.Drawing.Rectangle(0, 87, 162, 27);
+            this.layoutControlLabelItem30.Bounds = new System.Drawing.Rectangle(0, 82, 162, 26);
             this.layoutControlLabelItem30.DrawBorder = true;
             this.layoutControlLabelItem30.Name = "layoutControlLabelItem30";
             this.layoutControlLabelItem30.Text = "-";
             // 
             // layoutControlLabelItem31
             // 
-            this.layoutControlLabelItem31.Bounds = new System.Drawing.Rectangle(0, 114, 162, 28);
+            this.layoutControlLabelItem31.Bounds = new System.Drawing.Rectangle(0, 108, 162, 26);
             this.layoutControlLabelItem31.DrawBorder = true;
             this.layoutControlLabelItem31.Name = "layoutControlLabelItem31";
             this.layoutControlLabelItem31.Text = "-";
@@ -707,42 +709,42 @@
             // 
             // layoutControlLabelItem65
             // 
-            this.layoutControlLabelItem65.Bounds = new System.Drawing.Rectangle(0, 142, 164, 38);
+            this.layoutControlLabelItem65.Bounds = new System.Drawing.Rectangle(0, 135, 164, 45);
             this.layoutControlLabelItem65.DrawBorder = true;
             this.layoutControlLabelItem65.Name = "layoutControlLabelItem65";
             this.layoutControlLabelItem65.Text = "-";
             // 
             // layoutControlLabelItem66
             // 
-            this.layoutControlLabelItem66.Bounds = new System.Drawing.Rectangle(0, 62, 164, 26);
+            this.layoutControlLabelItem66.Bounds = new System.Drawing.Rectangle(0, 57, 164, 26);
             this.layoutControlLabelItem66.DrawBorder = true;
             this.layoutControlLabelItem66.Name = "layoutControlLabelItem66";
             this.layoutControlLabelItem66.Text = "104 | Информатика | Скоринова М. Б.";
             // 
             // layoutControlLabelItem67
             // 
-            this.layoutControlLabelItem67.Bounds = new System.Drawing.Rectangle(0, 31, 164, 31);
+            this.layoutControlLabelItem67.Bounds = new System.Drawing.Rectangle(0, 29, 164, 28);
             this.layoutControlLabelItem67.DrawBorder = true;
             this.layoutControlLabelItem67.Name = "layoutControlLabelItem67";
             this.layoutControlLabelItem67.Text = "101 | История | Калюжная М. В.";
             // 
             // layoutControlLabelItem68
             // 
-            this.layoutControlLabelItem68.Bounds = new System.Drawing.Rectangle(0, 0, 164, 31);
+            this.layoutControlLabelItem68.Bounds = new System.Drawing.Rectangle(0, 0, 164, 29);
             this.layoutControlLabelItem68.DrawBorder = true;
             this.layoutControlLabelItem68.Name = "layoutControlLabelItem68";
             this.layoutControlLabelItem68.Text = "СЗ | Физ. культура | Шевченко Е. В.";
             // 
             // layoutControlLabelItem69
             // 
-            this.layoutControlLabelItem69.Bounds = new System.Drawing.Rectangle(0, 88, 164, 27);
+            this.layoutControlLabelItem69.Bounds = new System.Drawing.Rectangle(0, 83, 164, 26);
             this.layoutControlLabelItem69.DrawBorder = true;
             this.layoutControlLabelItem69.Name = "layoutControlLabelItem69";
             this.layoutControlLabelItem69.Text = "-";
             // 
             // layoutControlLabelItem70
             // 
-            this.layoutControlLabelItem70.Bounds = new System.Drawing.Rectangle(0, 115, 164, 27);
+            this.layoutControlLabelItem70.Bounds = new System.Drawing.Rectangle(0, 109, 164, 26);
             this.layoutControlLabelItem70.DrawBorder = true;
             this.layoutControlLabelItem70.Name = "layoutControlLabelItem70";
             this.layoutControlLabelItem70.Text = "-";
@@ -770,42 +772,42 @@
             // 
             // layoutControlLabelItem71
             // 
-            this.layoutControlLabelItem71.Bounds = new System.Drawing.Rectangle(0, 143, 167, 37);
+            this.layoutControlLabelItem71.Bounds = new System.Drawing.Rectangle(0, 135, 167, 45);
             this.layoutControlLabelItem71.DrawBorder = true;
             this.layoutControlLabelItem71.Name = "layoutControlLabelItem71";
             this.layoutControlLabelItem71.Text = "-";
             // 
             // layoutControlLabelItem72
             // 
-            this.layoutControlLabelItem72.Bounds = new System.Drawing.Rectangle(0, 62, 167, 26);
+            this.layoutControlLabelItem72.Bounds = new System.Drawing.Rectangle(0, 57, 167, 26);
             this.layoutControlLabelItem72.DrawBorder = true;
             this.layoutControlLabelItem72.Name = "layoutControlLabelItem72";
             this.layoutControlLabelItem72.Text = "101 | ЭВМ | Едигорян М. В.";
             // 
             // layoutControlLabelItem73
             // 
-            this.layoutControlLabelItem73.Bounds = new System.Drawing.Rectangle(0, 31, 167, 31);
+            this.layoutControlLabelItem73.Bounds = new System.Drawing.Rectangle(0, 29, 167, 28);
             this.layoutControlLabelItem73.DrawBorder = true;
             this.layoutControlLabelItem73.Name = "layoutControlLabelItem73";
             this.layoutControlLabelItem73.Text = "105 | Программирование | Полусмак В. И.";
             // 
             // layoutControlLabelItem74
             // 
-            this.layoutControlLabelItem74.Bounds = new System.Drawing.Rectangle(0, 115, 167, 28);
+            this.layoutControlLabelItem74.Bounds = new System.Drawing.Rectangle(0, 109, 167, 26);
             this.layoutControlLabelItem74.DrawBorder = true;
             this.layoutControlLabelItem74.Name = "layoutControlLabelItem74";
             this.layoutControlLabelItem74.Text = "-";
             // 
             // layoutControlLabelItem75
             // 
-            this.layoutControlLabelItem75.Bounds = new System.Drawing.Rectangle(0, 88, 167, 27);
+            this.layoutControlLabelItem75.Bounds = new System.Drawing.Rectangle(0, 83, 167, 26);
             this.layoutControlLabelItem75.DrawBorder = true;
             this.layoutControlLabelItem75.Name = "layoutControlLabelItem75";
             this.layoutControlLabelItem75.Text = "СЗ | Физ. культура | Шевченко Е. В.";
             // 
             // layoutControlLabelItem76
             // 
-            this.layoutControlLabelItem76.Bounds = new System.Drawing.Rectangle(0, 0, 167, 31);
+            this.layoutControlLabelItem76.Bounds = new System.Drawing.Rectangle(0, 0, 167, 29);
             this.layoutControlLabelItem76.DrawBorder = true;
             this.layoutControlLabelItem76.Name = "layoutControlLabelItem76";
             this.layoutControlLabelItem76.Text = "-";
@@ -833,49 +835,49 @@
             // 
             // layoutControlLabelItem77
             // 
-            this.layoutControlLabelItem77.Bounds = new System.Drawing.Rectangle(0, 143, 160, 37);
+            this.layoutControlLabelItem77.Bounds = new System.Drawing.Rectangle(0, 135, 160, 45);
             this.layoutControlLabelItem77.DrawBorder = true;
             this.layoutControlLabelItem77.Name = "layoutControlLabelItem77";
             this.layoutControlLabelItem77.Text = "-";
             // 
             // layoutControlLabelItem78
             // 
-            this.layoutControlLabelItem78.Bounds = new System.Drawing.Rectangle(0, 62, 160, 26);
+            this.layoutControlLabelItem78.Bounds = new System.Drawing.Rectangle(0, 57, 160, 26);
             this.layoutControlLabelItem78.DrawBorder = true;
             this.layoutControlLabelItem78.Name = "layoutControlLabelItem78";
             this.layoutControlLabelItem78.Text = "105 | Программирование | Полусмак В. И.";
             // 
             // layoutControlLabelItem79
             // 
-            this.layoutControlLabelItem79.Bounds = new System.Drawing.Rectangle(0, 115, 160, 28);
+            this.layoutControlLabelItem79.Bounds = new System.Drawing.Rectangle(0, 109, 160, 26);
             this.layoutControlLabelItem79.DrawBorder = true;
             this.layoutControlLabelItem79.Name = "layoutControlLabelItem79";
             this.layoutControlLabelItem79.Text = "СЗ | Физ. культура | Шевченко Е. В.";
             // 
             // layoutControlLabelItem80
             // 
-            this.layoutControlLabelItem80.Bounds = new System.Drawing.Rectangle(0, 32, 160, 30);
+            this.layoutControlLabelItem80.Bounds = new System.Drawing.Rectangle(0, 30, 160, 27);
             this.layoutControlLabelItem80.DrawBorder = true;
             this.layoutControlLabelItem80.Name = "layoutControlLabelItem80";
             this.layoutControlLabelItem80.Text = "-";
             // 
             // layoutControlLabelItem81
             // 
-            this.layoutControlLabelItem81.Bounds = new System.Drawing.Rectangle(0, 0, 160, 32);
+            this.layoutControlLabelItem81.Bounds = new System.Drawing.Rectangle(0, 0, 160, 30);
             this.layoutControlLabelItem81.DrawBorder = true;
             this.layoutControlLabelItem81.Name = "layoutControlLabelItem81";
             this.layoutControlLabelItem81.Text = "-";
             // 
             // layoutControlLabelItem82
             // 
-            this.layoutControlLabelItem82.Bounds = new System.Drawing.Rectangle(0, 88, 160, 27);
+            this.layoutControlLabelItem82.Bounds = new System.Drawing.Rectangle(0, 83, 160, 26);
             this.layoutControlLabelItem82.DrawBorder = true;
             this.layoutControlLabelItem82.Name = "layoutControlLabelItem82";
             this.layoutControlLabelItem82.Text = "101 | ЭВМ | Едигорян М. В.";
             // 
             // layoutControlGroupItem3
             // 
-            this.layoutControlGroupItem3.Bounds = new System.Drawing.Rectangle(0, 541, 1110, 264);
+            this.layoutControlGroupItem3.Bounds = new System.Drawing.Rectangle(0, 541, 1110, 263);
             this.layoutControlGroupItem3.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlLabelItem4,
             this.layoutControlTabbedGroup9,
@@ -887,13 +889,13 @@
             // 
             // layoutControlLabelItem4
             // 
-            this.layoutControlLabelItem4.Bounds = new System.Drawing.Rectangle(691, 0, 411, 236);
+            this.layoutControlLabelItem4.Bounds = new System.Drawing.Rectangle(691, 0, 411, 235);
             this.layoutControlLabelItem4.DrawText = false;
             this.layoutControlLabelItem4.Name = "layoutControlLabelItem4";
             // 
             // layoutControlTabbedGroup9
             // 
-            this.layoutControlTabbedGroup9.Bounds = new System.Drawing.Rectangle(0, 0, 171, 236);
+            this.layoutControlTabbedGroup9.Bounds = new System.Drawing.Rectangle(0, 0, 171, 235);
             this.layoutControlTabbedGroup9.ItemGroups.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlGroupItem15});
             this.layoutControlTabbedGroup9.Name = "layoutControlTabbedGroup9";
@@ -901,7 +903,7 @@
             // 
             // layoutControlGroupItem15
             // 
-            this.layoutControlGroupItem15.Bounds = new System.Drawing.Rectangle(0, 0, 161, 177);
+            this.layoutControlGroupItem15.Bounds = new System.Drawing.Rectangle(0, 0, 161, 176);
             this.layoutControlGroupItem15.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlLabelItem17,
             this.layoutControlLabelItem18,
@@ -914,49 +916,49 @@
             // 
             // layoutControlLabelItem17
             // 
-            this.layoutControlLabelItem17.Bounds = new System.Drawing.Rectangle(0, 138, 161, 39);
+            this.layoutControlLabelItem17.Bounds = new System.Drawing.Rectangle(0, 132, 161, 44);
             this.layoutControlLabelItem17.DrawBorder = true;
             this.layoutControlLabelItem17.Name = "layoutControlLabelItem17";
             this.layoutControlLabelItem17.Text = "-";
             // 
             // layoutControlLabelItem18
             // 
-            this.layoutControlLabelItem18.Bounds = new System.Drawing.Rectangle(0, 111, 161, 27);
+            this.layoutControlLabelItem18.Bounds = new System.Drawing.Rectangle(0, 106, 161, 26);
             this.layoutControlLabelItem18.DrawBorder = true;
             this.layoutControlLabelItem18.Name = "layoutControlLabelItem18";
             this.layoutControlLabelItem18.Text = "-";
             // 
             // layoutControlLabelItem19
             // 
-            this.layoutControlLabelItem19.Bounds = new System.Drawing.Rectangle(0, 85, 161, 26);
+            this.layoutControlLabelItem19.Bounds = new System.Drawing.Rectangle(0, 80, 161, 26);
             this.layoutControlLabelItem19.DrawBorder = true;
             this.layoutControlLabelItem19.Name = "layoutControlLabelItem19";
             this.layoutControlLabelItem19.Text = "-";
             // 
             // layoutControlLabelItem44
             // 
-            this.layoutControlLabelItem44.Bounds = new System.Drawing.Rectangle(0, 56, 161, 29);
+            this.layoutControlLabelItem44.Bounds = new System.Drawing.Rectangle(0, 52, 161, 28);
             this.layoutControlLabelItem44.DrawBorder = true;
             this.layoutControlLabelItem44.Name = "layoutControlLabelItem44";
             this.layoutControlLabelItem44.Text = "103 | Обществознание | Калюжная М. В.";
             // 
             // layoutControlLabelItem45
             // 
-            this.layoutControlLabelItem45.Bounds = new System.Drawing.Rectangle(0, 28, 161, 28);
+            this.layoutControlLabelItem45.Bounds = new System.Drawing.Rectangle(0, 26, 161, 26);
             this.layoutControlLabelItem45.DrawBorder = true;
             this.layoutControlLabelItem45.Name = "layoutControlLabelItem45";
             this.layoutControlLabelItem45.Text = "107 | Химия | Бережная Л. В.";
             // 
             // layoutControlLabelItem46
             // 
-            this.layoutControlLabelItem46.Bounds = new System.Drawing.Rectangle(0, 0, 161, 28);
+            this.layoutControlLabelItem46.Bounds = new System.Drawing.Rectangle(0, 0, 161, 26);
             this.layoutControlLabelItem46.DrawBorder = true;
             this.layoutControlLabelItem46.Name = "layoutControlLabelItem46";
             this.layoutControlLabelItem46.Text = "100 | Русский язык | Иванов. И. И.";
             // 
             // layoutControlTabbedGroup10
             // 
-            this.layoutControlTabbedGroup10.Bounds = new System.Drawing.Rectangle(171, 0, 175, 236);
+            this.layoutControlTabbedGroup10.Bounds = new System.Drawing.Rectangle(171, 0, 175, 235);
             this.layoutControlTabbedGroup10.ItemGroups.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlGroupItem16});
             this.layoutControlTabbedGroup10.Name = "layoutControlTabbedGroup10";
@@ -964,7 +966,7 @@
             // 
             // layoutControlGroupItem16
             // 
-            this.layoutControlGroupItem16.Bounds = new System.Drawing.Rectangle(0, 0, 165, 177);
+            this.layoutControlGroupItem16.Bounds = new System.Drawing.Rectangle(0, 0, 165, 176);
             this.layoutControlGroupItem16.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlLabelItem83,
             this.layoutControlLabelItem84,
@@ -977,49 +979,49 @@
             // 
             // layoutControlLabelItem83
             // 
-            this.layoutControlLabelItem83.Bounds = new System.Drawing.Rectangle(0, 137, 165, 40);
+            this.layoutControlLabelItem83.Bounds = new System.Drawing.Rectangle(0, 132, 165, 44);
             this.layoutControlLabelItem83.DrawBorder = true;
             this.layoutControlLabelItem83.Name = "layoutControlLabelItem83";
             this.layoutControlLabelItem83.Text = "-";
             // 
             // layoutControlLabelItem84
             // 
-            this.layoutControlLabelItem84.Bounds = new System.Drawing.Rectangle(0, 0, 165, 28);
+            this.layoutControlLabelItem84.Bounds = new System.Drawing.Rectangle(0, 0, 165, 26);
             this.layoutControlLabelItem84.DrawBorder = true;
             this.layoutControlLabelItem84.Name = "layoutControlLabelItem84";
             this.layoutControlLabelItem84.Text = "104 | Информатика | Скоринова М. Б.";
             // 
             // layoutControlLabelItem85
             // 
-            this.layoutControlLabelItem85.Bounds = new System.Drawing.Rectangle(0, 28, 165, 29);
+            this.layoutControlLabelItem85.Bounds = new System.Drawing.Rectangle(0, 26, 165, 27);
             this.layoutControlLabelItem85.DrawBorder = true;
             this.layoutControlLabelItem85.Name = "layoutControlLabelItem85";
             this.layoutControlLabelItem85.Text = "100 | Русский язык | Иванов. И. И.";
             // 
             // layoutControlLabelItem86
             // 
-            this.layoutControlLabelItem86.Bounds = new System.Drawing.Rectangle(0, 85, 165, 26);
+            this.layoutControlLabelItem86.Bounds = new System.Drawing.Rectangle(0, 80, 165, 26);
             this.layoutControlLabelItem86.DrawBorder = true;
             this.layoutControlLabelItem86.Name = "layoutControlLabelItem86";
             this.layoutControlLabelItem86.Text = "-";
             // 
             // layoutControlLabelItem87
             // 
-            this.layoutControlLabelItem87.Bounds = new System.Drawing.Rectangle(0, 57, 165, 28);
+            this.layoutControlLabelItem87.Bounds = new System.Drawing.Rectangle(0, 53, 165, 27);
             this.layoutControlLabelItem87.DrawBorder = true;
             this.layoutControlLabelItem87.Name = "layoutControlLabelItem87";
             this.layoutControlLabelItem87.Text = "СЗ | Физ. культура | Шевченко Е. В.";
             // 
             // layoutControlLabelItem88
             // 
-            this.layoutControlLabelItem88.Bounds = new System.Drawing.Rectangle(0, 111, 165, 26);
+            this.layoutControlLabelItem88.Bounds = new System.Drawing.Rectangle(0, 106, 165, 26);
             this.layoutControlLabelItem88.DrawBorder = true;
             this.layoutControlLabelItem88.Name = "layoutControlLabelItem88";
             this.layoutControlLabelItem88.Text = "-";
             // 
             // layoutControlTabbedGroup11
             // 
-            this.layoutControlTabbedGroup11.Bounds = new System.Drawing.Rectangle(346, 0, 173, 236);
+            this.layoutControlTabbedGroup11.Bounds = new System.Drawing.Rectangle(346, 0, 173, 235);
             this.layoutControlTabbedGroup11.ItemGroups.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlGroupItem17});
             this.layoutControlTabbedGroup11.Name = "layoutControlTabbedGroup11";
@@ -1027,7 +1029,7 @@
             // 
             // layoutControlGroupItem17
             // 
-            this.layoutControlGroupItem17.Bounds = new System.Drawing.Rectangle(0, 0, 163, 177);
+            this.layoutControlGroupItem17.Bounds = new System.Drawing.Rectangle(0, 0, 163, 176);
             this.layoutControlGroupItem17.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlLabelItem89,
             this.layoutControlLabelItem90,
@@ -1040,49 +1042,49 @@
             // 
             // layoutControlLabelItem89
             // 
-            this.layoutControlLabelItem89.Bounds = new System.Drawing.Rectangle(0, 138, 163, 39);
+            this.layoutControlLabelItem89.Bounds = new System.Drawing.Rectangle(0, 133, 163, 43);
             this.layoutControlLabelItem89.DrawBorder = true;
             this.layoutControlLabelItem89.Name = "layoutControlLabelItem89";
             this.layoutControlLabelItem89.Text = "-";
             // 
             // layoutControlLabelItem90
             // 
-            this.layoutControlLabelItem90.Bounds = new System.Drawing.Rectangle(0, 56, 163, 30);
+            this.layoutControlLabelItem90.Bounds = new System.Drawing.Rectangle(0, 52, 163, 29);
             this.layoutControlLabelItem90.DrawBorder = true;
             this.layoutControlLabelItem90.Name = "layoutControlLabelItem90";
             this.layoutControlLabelItem90.Text = "102 | Теор. вероятности | Едигорян М. В.";
             // 
             // layoutControlLabelItem91
             // 
-            this.layoutControlLabelItem91.Bounds = new System.Drawing.Rectangle(0, 0, 163, 28);
+            this.layoutControlLabelItem91.Bounds = new System.Drawing.Rectangle(0, 0, 163, 26);
             this.layoutControlLabelItem91.DrawBorder = true;
             this.layoutControlLabelItem91.Name = "layoutControlLabelItem91";
             this.layoutControlLabelItem91.Text = "105 | Программирование | Полусмак В. И.";
             // 
             // layoutControlLabelItem92
             // 
-            this.layoutControlLabelItem92.Bounds = new System.Drawing.Rectangle(0, 28, 163, 28);
+            this.layoutControlLabelItem92.Bounds = new System.Drawing.Rectangle(0, 26, 163, 26);
             this.layoutControlLabelItem92.DrawBorder = true;
             this.layoutControlLabelItem92.Name = "layoutControlLabelItem92";
             this.layoutControlLabelItem92.Text = "103 | Философия | Николаева Н. Н.";
             // 
             // layoutControlLabelItem93
             // 
-            this.layoutControlLabelItem93.Bounds = new System.Drawing.Rectangle(0, 86, 163, 26);
+            this.layoutControlLabelItem93.Bounds = new System.Drawing.Rectangle(0, 81, 163, 26);
             this.layoutControlLabelItem93.DrawBorder = true;
             this.layoutControlLabelItem93.Name = "layoutControlLabelItem93";
             this.layoutControlLabelItem93.Text = "-";
             // 
             // layoutControlLabelItem94
             // 
-            this.layoutControlLabelItem94.Bounds = new System.Drawing.Rectangle(0, 112, 163, 26);
+            this.layoutControlLabelItem94.Bounds = new System.Drawing.Rectangle(0, 107, 163, 26);
             this.layoutControlLabelItem94.DrawBorder = true;
             this.layoutControlLabelItem94.Name = "layoutControlLabelItem94";
             this.layoutControlLabelItem94.Text = "-";
             // 
             // layoutControlTabbedGroup12
             // 
-            this.layoutControlTabbedGroup12.Bounds = new System.Drawing.Rectangle(519, 0, 172, 236);
+            this.layoutControlTabbedGroup12.Bounds = new System.Drawing.Rectangle(519, 0, 172, 235);
             this.layoutControlTabbedGroup12.ItemGroups.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlGroupItem18});
             this.layoutControlTabbedGroup12.Name = "layoutControlTabbedGroup12";
@@ -1090,7 +1092,7 @@
             // 
             // layoutControlGroupItem18
             // 
-            this.layoutControlGroupItem18.Bounds = new System.Drawing.Rectangle(0, 0, 162, 177);
+            this.layoutControlGroupItem18.Bounds = new System.Drawing.Rectangle(0, 0, 162, 176);
             this.layoutControlGroupItem18.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlLabelItem95,
             this.layoutControlLabelItem96,
@@ -1103,49 +1105,49 @@
             // 
             // layoutControlLabelItem95
             // 
-            this.layoutControlLabelItem95.Bounds = new System.Drawing.Rectangle(0, 138, 162, 39);
+            this.layoutControlLabelItem95.Bounds = new System.Drawing.Rectangle(0, 133, 162, 43);
             this.layoutControlLabelItem95.DrawBorder = true;
             this.layoutControlLabelItem95.Name = "layoutControlLabelItem95";
             this.layoutControlLabelItem95.Text = "-";
             // 
             // layoutControlLabelItem96
             // 
-            this.layoutControlLabelItem96.Bounds = new System.Drawing.Rectangle(0, 0, 162, 28);
+            this.layoutControlLabelItem96.Bounds = new System.Drawing.Rectangle(0, 0, 162, 26);
             this.layoutControlLabelItem96.DrawBorder = true;
             this.layoutControlLabelItem96.Name = "layoutControlLabelItem96";
             this.layoutControlLabelItem96.Text = "103 | Теор. вероятности | Едигорян М. В.";
             // 
             // layoutControlLabelItem97
             // 
-            this.layoutControlLabelItem97.Bounds = new System.Drawing.Rectangle(0, 57, 162, 29);
+            this.layoutControlLabelItem97.Bounds = new System.Drawing.Rectangle(0, 53, 162, 28);
             this.layoutControlLabelItem97.DrawBorder = true;
             this.layoutControlLabelItem97.Name = "layoutControlLabelItem97";
             this.layoutControlLabelItem97.Text = "100 | Сис. программирование | Полусмак В. И.";
             // 
             // layoutControlLabelItem98
             // 
-            this.layoutControlLabelItem98.Bounds = new System.Drawing.Rectangle(0, 28, 162, 29);
+            this.layoutControlLabelItem98.Bounds = new System.Drawing.Rectangle(0, 26, 162, 27);
             this.layoutControlLabelItem98.DrawBorder = true;
             this.layoutControlLabelItem98.Name = "layoutControlLabelItem98";
             this.layoutControlLabelItem98.Text = "105 | Программирование | Полусмак В. И.";
             // 
             // layoutControlLabelItem99
             // 
-            this.layoutControlLabelItem99.Bounds = new System.Drawing.Rectangle(0, 112, 162, 26);
+            this.layoutControlLabelItem99.Bounds = new System.Drawing.Rectangle(0, 107, 162, 26);
             this.layoutControlLabelItem99.DrawBorder = true;
             this.layoutControlLabelItem99.Name = "layoutControlLabelItem99";
             this.layoutControlLabelItem99.Text = "-";
             // 
             // layoutControlLabelItem100
             // 
-            this.layoutControlLabelItem100.Bounds = new System.Drawing.Rectangle(0, 86, 162, 26);
+            this.layoutControlLabelItem100.Bounds = new System.Drawing.Rectangle(0, 81, 162, 26);
             this.layoutControlLabelItem100.DrawBorder = true;
             this.layoutControlLabelItem100.Name = "layoutControlLabelItem100";
             this.layoutControlLabelItem100.Text = "-";
             // 
             // layoutControlGroupItem4
             // 
-            this.layoutControlGroupItem4.Bounds = new System.Drawing.Rectangle(0, 805, 1110, 271);
+            this.layoutControlGroupItem4.Bounds = new System.Drawing.Rectangle(0, 804, 1110, 271);
             this.layoutControlGroupItem4.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlLabelItem5,
             this.layoutControlTabbedGroup13,
@@ -1184,42 +1186,42 @@
             // 
             // layoutControlLabelItem14
             // 
-            this.layoutControlLabelItem14.Bounds = new System.Drawing.Rectangle(0, 145, 161, 39);
+            this.layoutControlLabelItem14.Bounds = new System.Drawing.Rectangle(0, 137, 161, 47);
             this.layoutControlLabelItem14.DrawBorder = true;
             this.layoutControlLabelItem14.Name = "layoutControlLabelItem14";
             this.layoutControlLabelItem14.Text = "-";
             // 
             // layoutControlLabelItem15
             // 
-            this.layoutControlLabelItem15.Bounds = new System.Drawing.Rectangle(0, 116, 161, 29);
+            this.layoutControlLabelItem15.Bounds = new System.Drawing.Rectangle(0, 109, 161, 28);
             this.layoutControlLabelItem15.DrawBorder = true;
             this.layoutControlLabelItem15.Name = "layoutControlLabelItem15";
             this.layoutControlLabelItem15.Text = "-";
             // 
             // layoutControlLabelItem16
             // 
-            this.layoutControlLabelItem16.Bounds = new System.Drawing.Rectangle(0, 87, 161, 29);
+            this.layoutControlLabelItem16.Bounds = new System.Drawing.Rectangle(0, 82, 161, 27);
             this.layoutControlLabelItem16.DrawBorder = true;
             this.layoutControlLabelItem16.Name = "layoutControlLabelItem16";
             this.layoutControlLabelItem16.Text = "-";
             // 
             // layoutControlLabelItem41
             // 
-            this.layoutControlLabelItem41.Bounds = new System.Drawing.Rectangle(0, 56, 161, 31);
+            this.layoutControlLabelItem41.Bounds = new System.Drawing.Rectangle(0, 53, 161, 29);
             this.layoutControlLabelItem41.DrawBorder = true;
             this.layoutControlLabelItem41.Name = "layoutControlLabelItem41";
             this.layoutControlLabelItem41.Text = "103 | Обществознание | Калюжная М. В.";
             // 
             // layoutControlLabelItem42
             // 
-            this.layoutControlLabelItem42.Bounds = new System.Drawing.Rectangle(0, 29, 161, 27);
+            this.layoutControlLabelItem42.Bounds = new System.Drawing.Rectangle(0, 27, 161, 26);
             this.layoutControlLabelItem42.DrawBorder = true;
             this.layoutControlLabelItem42.Name = "layoutControlLabelItem42";
             this.layoutControlLabelItem42.Text = "104 | Информатика | Скоринова М. Б.";
             // 
             // layoutControlLabelItem43
             // 
-            this.layoutControlLabelItem43.Bounds = new System.Drawing.Rectangle(0, 0, 161, 29);
+            this.layoutControlLabelItem43.Bounds = new System.Drawing.Rectangle(0, 0, 161, 27);
             this.layoutControlLabelItem43.DrawBorder = true;
             this.layoutControlLabelItem43.Name = "layoutControlLabelItem43";
             this.layoutControlLabelItem43.Text = "201 | Иностранный язык | Семёнов Н. Г.";
@@ -1248,42 +1250,42 @@
             // 
             // layoutControlLabelItem101
             // 
-            this.layoutControlLabelItem101.Bounds = new System.Drawing.Rectangle(0, 145, 164, 39);
+            this.layoutControlLabelItem101.Bounds = new System.Drawing.Rectangle(0, 137, 164, 47);
             this.layoutControlLabelItem101.DrawBorder = true;
             this.layoutControlLabelItem101.Name = "layoutControlLabelItem101";
             this.layoutControlLabelItem101.Text = "-";
             // 
             // layoutControlLabelItem102
             // 
-            this.layoutControlLabelItem102.Bounds = new System.Drawing.Rectangle(0, 58, 164, 30);
+            this.layoutControlLabelItem102.Bounds = new System.Drawing.Rectangle(0, 55, 164, 28);
             this.layoutControlLabelItem102.DrawBorder = true;
             this.layoutControlLabelItem102.Name = "layoutControlLabelItem102";
             this.layoutControlLabelItem102.Text = "107 | Химия | Бережная Л. В.";
             // 
             // layoutControlLabelItem103
             // 
-            this.layoutControlLabelItem103.Bounds = new System.Drawing.Rectangle(0, 29, 164, 29);
+            this.layoutControlLabelItem103.Bounds = new System.Drawing.Rectangle(0, 27, 164, 28);
             this.layoutControlLabelItem103.DrawBorder = true;
             this.layoutControlLabelItem103.Name = "layoutControlLabelItem103";
             this.layoutControlLabelItem103.Text = "201 | Иностранный язык | Семёнов Н. Г.";
             // 
             // layoutControlLabelItem104
             // 
-            this.layoutControlLabelItem104.Bounds = new System.Drawing.Rectangle(0, 0, 164, 29);
+            this.layoutControlLabelItem104.Bounds = new System.Drawing.Rectangle(0, 0, 164, 27);
             this.layoutControlLabelItem104.DrawBorder = true;
             this.layoutControlLabelItem104.Name = "layoutControlLabelItem104";
             this.layoutControlLabelItem104.Text = "103 | Обществознание | Калюжная М. В.";
             // 
             // layoutControlLabelItem105
             // 
-            this.layoutControlLabelItem105.Bounds = new System.Drawing.Rectangle(0, 115, 164, 30);
+            this.layoutControlLabelItem105.Bounds = new System.Drawing.Rectangle(0, 109, 164, 28);
             this.layoutControlLabelItem105.DrawBorder = true;
             this.layoutControlLabelItem105.Name = "layoutControlLabelItem105";
             this.layoutControlLabelItem105.Text = "-";
             // 
             // layoutControlLabelItem106
             // 
-            this.layoutControlLabelItem106.Bounds = new System.Drawing.Rectangle(0, 88, 164, 27);
+            this.layoutControlLabelItem106.Bounds = new System.Drawing.Rectangle(0, 83, 164, 26);
             this.layoutControlLabelItem106.DrawBorder = true;
             this.layoutControlLabelItem106.Name = "layoutControlLabelItem106";
             this.layoutControlLabelItem106.Text = "-";
@@ -1311,42 +1313,42 @@
             // 
             // layoutControlLabelItem107
             // 
-            this.layoutControlLabelItem107.Bounds = new System.Drawing.Rectangle(0, 145, 169, 39);
+            this.layoutControlLabelItem107.Bounds = new System.Drawing.Rectangle(0, 137, 169, 47);
             this.layoutControlLabelItem107.DrawBorder = true;
             this.layoutControlLabelItem107.Name = "layoutControlLabelItem107";
             this.layoutControlLabelItem107.Text = "100 | Сис. программирование | Полусмак В. И.";
             // 
             // layoutControlLabelItem108
             // 
-            this.layoutControlLabelItem108.Bounds = new System.Drawing.Rectangle(0, 0, 169, 29);
+            this.layoutControlLabelItem108.Bounds = new System.Drawing.Rectangle(0, 0, 169, 27);
             this.layoutControlLabelItem108.DrawBorder = true;
             this.layoutControlLabelItem108.Name = "layoutControlLabelItem108";
             this.layoutControlLabelItem108.Text = "-";
             // 
             // layoutControlLabelItem109
             // 
-            this.layoutControlLabelItem109.Bounds = new System.Drawing.Rectangle(0, 29, 169, 29);
+            this.layoutControlLabelItem109.Bounds = new System.Drawing.Rectangle(0, 27, 169, 28);
             this.layoutControlLabelItem109.DrawBorder = true;
             this.layoutControlLabelItem109.Name = "layoutControlLabelItem109";
             this.layoutControlLabelItem109.Text = "-";
             // 
             // layoutControlLabelItem110
             // 
-            this.layoutControlLabelItem110.Bounds = new System.Drawing.Rectangle(0, 88, 169, 27);
+            this.layoutControlLabelItem110.Bounds = new System.Drawing.Rectangle(0, 83, 169, 26);
             this.layoutControlLabelItem110.DrawBorder = true;
             this.layoutControlLabelItem110.Name = "layoutControlLabelItem110";
             this.layoutControlLabelItem110.Text = "201 | Иностранный язык | Семёнов Н. Г.";
             // 
             // layoutControlLabelItem111
             // 
-            this.layoutControlLabelItem111.Bounds = new System.Drawing.Rectangle(0, 58, 169, 30);
+            this.layoutControlLabelItem111.Bounds = new System.Drawing.Rectangle(0, 55, 169, 28);
             this.layoutControlLabelItem111.DrawBorder = true;
             this.layoutControlLabelItem111.Name = "layoutControlLabelItem111";
             this.layoutControlLabelItem111.Text = "-";
             // 
             // layoutControlLabelItem112
             // 
-            this.layoutControlLabelItem112.Bounds = new System.Drawing.Rectangle(0, 115, 169, 30);
+            this.layoutControlLabelItem112.Bounds = new System.Drawing.Rectangle(0, 109, 169, 28);
             this.layoutControlLabelItem112.DrawBorder = true;
             this.layoutControlLabelItem112.Name = "layoutControlLabelItem112";
             this.layoutControlLabelItem112.Text = "СЗ | Физ. культура | Шевченко Е. В.";
@@ -1374,49 +1376,49 @@
             // 
             // layoutControlLabelItem113
             // 
-            this.layoutControlLabelItem113.Bounds = new System.Drawing.Rectangle(0, 144, 157, 40);
+            this.layoutControlLabelItem113.Bounds = new System.Drawing.Rectangle(0, 136, 157, 48);
             this.layoutControlLabelItem113.DrawBorder = true;
             this.layoutControlLabelItem113.Name = "layoutControlLabelItem113";
             this.layoutControlLabelItem113.Text = "-";
             // 
             // layoutControlLabelItem114
             // 
-            this.layoutControlLabelItem114.Bounds = new System.Drawing.Rectangle(0, 58, 157, 30);
+            this.layoutControlLabelItem114.Bounds = new System.Drawing.Rectangle(0, 55, 157, 28);
             this.layoutControlLabelItem114.DrawBorder = true;
             this.layoutControlLabelItem114.Name = "layoutControlLabelItem114";
             this.layoutControlLabelItem114.Text = "201 | Иностранный язык | Семёнов Н. Г.";
             // 
             // layoutControlLabelItem115
             // 
-            this.layoutControlLabelItem115.Bounds = new System.Drawing.Rectangle(0, 29, 157, 29);
+            this.layoutControlLabelItem115.Bounds = new System.Drawing.Rectangle(0, 27, 157, 28);
             this.layoutControlLabelItem115.DrawBorder = true;
             this.layoutControlLabelItem115.Name = "layoutControlLabelItem115";
             this.layoutControlLabelItem115.Text = "101 | ЭВМ | Едигорян М. В.";
             // 
             // layoutControlLabelItem116
             // 
-            this.layoutControlLabelItem116.Bounds = new System.Drawing.Rectangle(0, 115, 157, 29);
+            this.layoutControlLabelItem116.Bounds = new System.Drawing.Rectangle(0, 109, 157, 27);
             this.layoutControlLabelItem116.DrawBorder = true;
             this.layoutControlLabelItem116.Name = "layoutControlLabelItem116";
             this.layoutControlLabelItem116.Text = "-";
             // 
             // layoutControlLabelItem117
             // 
-            this.layoutControlLabelItem117.Bounds = new System.Drawing.Rectangle(0, 0, 157, 29);
+            this.layoutControlLabelItem117.Bounds = new System.Drawing.Rectangle(0, 0, 157, 27);
             this.layoutControlLabelItem117.DrawBorder = true;
             this.layoutControlLabelItem117.Name = "layoutControlLabelItem117";
             this.layoutControlLabelItem117.Text = "-";
             // 
             // layoutControlLabelItem118
             // 
-            this.layoutControlLabelItem118.Bounds = new System.Drawing.Rectangle(0, 88, 157, 27);
+            this.layoutControlLabelItem118.Bounds = new System.Drawing.Rectangle(0, 83, 157, 26);
             this.layoutControlLabelItem118.DrawBorder = true;
             this.layoutControlLabelItem118.Name = "layoutControlLabelItem118";
             this.layoutControlLabelItem118.Text = "103 | Философия | Николаева Н. Н.";
             // 
             // layoutControlGroupItem5
             // 
-            this.layoutControlGroupItem5.Bounds = new System.Drawing.Rectangle(0, 1076, 1110, 271);
+            this.layoutControlGroupItem5.Bounds = new System.Drawing.Rectangle(0, 1075, 1110, 271);
             this.layoutControlGroupItem5.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlLabelItem6,
             this.layoutControlTabbedGroup17,
@@ -1455,42 +1457,42 @@
             // 
             // layoutControlLabelItem11
             // 
-            this.layoutControlLabelItem11.Bounds = new System.Drawing.Rectangle(0, 143, 159, 41);
+            this.layoutControlLabelItem11.Bounds = new System.Drawing.Rectangle(0, 135, 159, 49);
             this.layoutControlLabelItem11.DrawBorder = true;
             this.layoutControlLabelItem11.Name = "layoutControlLabelItem11";
             this.layoutControlLabelItem11.Text = "-";
             // 
             // layoutControlLabelItem12
             // 
-            this.layoutControlLabelItem12.Bounds = new System.Drawing.Rectangle(0, 115, 159, 28);
+            this.layoutControlLabelItem12.Bounds = new System.Drawing.Rectangle(0, 108, 159, 27);
             this.layoutControlLabelItem12.DrawBorder = true;
             this.layoutControlLabelItem12.Name = "layoutControlLabelItem12";
             this.layoutControlLabelItem12.Text = "-";
             // 
             // layoutControlLabelItem13
             // 
-            this.layoutControlLabelItem13.Bounds = new System.Drawing.Rectangle(0, 87, 159, 28);
+            this.layoutControlLabelItem13.Bounds = new System.Drawing.Rectangle(0, 82, 159, 26);
             this.layoutControlLabelItem13.DrawBorder = true;
             this.layoutControlLabelItem13.Name = "layoutControlLabelItem13";
             this.layoutControlLabelItem13.Text = "-";
             // 
             // layoutControlLabelItem38
             // 
-            this.layoutControlLabelItem38.Bounds = new System.Drawing.Rectangle(0, 56, 159, 31);
+            this.layoutControlLabelItem38.Bounds = new System.Drawing.Rectangle(0, 53, 159, 29);
             this.layoutControlLabelItem38.DrawBorder = true;
             this.layoutControlLabelItem38.Name = "layoutControlLabelItem38";
             this.layoutControlLabelItem38.Text = "107 | Химия | Бережная Л. В.";
             // 
             // layoutControlLabelItem39
             // 
-            this.layoutControlLabelItem39.Bounds = new System.Drawing.Rectangle(0, 28, 159, 28);
+            this.layoutControlLabelItem39.Bounds = new System.Drawing.Rectangle(0, 26, 159, 27);
             this.layoutControlLabelItem39.DrawBorder = true;
             this.layoutControlLabelItem39.Name = "layoutControlLabelItem39";
             this.layoutControlLabelItem39.Text = "101 | Математика | Сахарова Н. Е.";
             // 
             // layoutControlLabelItem40
             // 
-            this.layoutControlLabelItem40.Bounds = new System.Drawing.Rectangle(0, 0, 159, 28);
+            this.layoutControlLabelItem40.Bounds = new System.Drawing.Rectangle(0, 0, 159, 26);
             this.layoutControlLabelItem40.DrawBorder = true;
             this.layoutControlLabelItem40.Name = "layoutControlLabelItem40";
             this.layoutControlLabelItem40.Text = "104 | Информатика | Скоринова М. Б.";
@@ -1518,42 +1520,42 @@
             // 
             // layoutControlLabelItem119
             // 
-            this.layoutControlLabelItem119.Bounds = new System.Drawing.Rectangle(0, 143, 165, 41);
+            this.layoutControlLabelItem119.Bounds = new System.Drawing.Rectangle(0, 135, 165, 49);
             this.layoutControlLabelItem119.DrawBorder = true;
             this.layoutControlLabelItem119.Name = "layoutControlLabelItem119";
             this.layoutControlLabelItem119.Text = "-";
             // 
             // layoutControlLabelItem120
             // 
-            this.layoutControlLabelItem120.Bounds = new System.Drawing.Rectangle(0, 56, 165, 31);
+            this.layoutControlLabelItem120.Bounds = new System.Drawing.Rectangle(0, 53, 165, 29);
             this.layoutControlLabelItem120.DrawBorder = true;
             this.layoutControlLabelItem120.Name = "layoutControlLabelItem120";
             this.layoutControlLabelItem120.Text = "101 | Математика | Сахарова Н. Е.";
             // 
             // layoutControlLabelItem121
             // 
-            this.layoutControlLabelItem121.Bounds = new System.Drawing.Rectangle(0, 28, 165, 28);
+            this.layoutControlLabelItem121.Bounds = new System.Drawing.Rectangle(0, 26, 165, 27);
             this.layoutControlLabelItem121.DrawBorder = true;
             this.layoutControlLabelItem121.Name = "layoutControlLabelItem121";
             this.layoutControlLabelItem121.Text = "107 | Химия | Бережная Л. В.";
             // 
             // layoutControlLabelItem122
             // 
-            this.layoutControlLabelItem122.Bounds = new System.Drawing.Rectangle(0, 115, 165, 28);
+            this.layoutControlLabelItem122.Bounds = new System.Drawing.Rectangle(0, 108, 165, 27);
             this.layoutControlLabelItem122.DrawBorder = true;
             this.layoutControlLabelItem122.Name = "layoutControlLabelItem122";
             this.layoutControlLabelItem122.Text = "-";
             // 
             // layoutControlLabelItem123
             // 
-            this.layoutControlLabelItem123.Bounds = new System.Drawing.Rectangle(0, 0, 165, 28);
+            this.layoutControlLabelItem123.Bounds = new System.Drawing.Rectangle(0, 0, 165, 26);
             this.layoutControlLabelItem123.DrawBorder = true;
             this.layoutControlLabelItem123.Name = "layoutControlLabelItem123";
             this.layoutControlLabelItem123.Text = "107 | Биология | Бережная Л. В.";
             // 
             // layoutControlLabelItem124
             // 
-            this.layoutControlLabelItem124.Bounds = new System.Drawing.Rectangle(0, 87, 165, 28);
+            this.layoutControlLabelItem124.Bounds = new System.Drawing.Rectangle(0, 82, 165, 26);
             this.layoutControlLabelItem124.DrawBorder = true;
             this.layoutControlLabelItem124.Name = "layoutControlLabelItem124";
             this.layoutControlLabelItem124.Text = "-";
@@ -1581,42 +1583,42 @@
             // 
             // layoutControlLabelItem125
             // 
-            this.layoutControlLabelItem125.Bounds = new System.Drawing.Rectangle(0, 142, 166, 42);
+            this.layoutControlLabelItem125.Bounds = new System.Drawing.Rectangle(0, 134, 166, 50);
             this.layoutControlLabelItem125.DrawBorder = true;
             this.layoutControlLabelItem125.Name = "layoutControlLabelItem125";
             this.layoutControlLabelItem125.Text = "-";
             // 
             // layoutControlLabelItem126
             // 
-            this.layoutControlLabelItem126.Bounds = new System.Drawing.Rectangle(0, 0, 166, 28);
+            this.layoutControlLabelItem126.Bounds = new System.Drawing.Rectangle(0, 0, 166, 26);
             this.layoutControlLabelItem126.DrawBorder = true;
             this.layoutControlLabelItem126.Name = "layoutControlLabelItem126";
             this.layoutControlLabelItem126.Text = "-";
             // 
             // layoutControlLabelItem127
             // 
-            this.layoutControlLabelItem127.Bounds = new System.Drawing.Rectangle(0, 87, 166, 28);
+            this.layoutControlLabelItem127.Bounds = new System.Drawing.Rectangle(0, 82, 166, 26);
             this.layoutControlLabelItem127.DrawBorder = true;
             this.layoutControlLabelItem127.Name = "layoutControlLabelItem127";
             this.layoutControlLabelItem127.Text = "100 | Сис. программирование | Полусмак В. И.";
             // 
             // layoutControlLabelItem128
             // 
-            this.layoutControlLabelItem128.Bounds = new System.Drawing.Rectangle(0, 56, 166, 31);
+            this.layoutControlLabelItem128.Bounds = new System.Drawing.Rectangle(0, 53, 166, 29);
             this.layoutControlLabelItem128.DrawBorder = true;
             this.layoutControlLabelItem128.Name = "layoutControlLabelItem128";
             this.layoutControlLabelItem128.Text = "100 | Теор. вероятности | Едигорян М. В.";
             // 
             // layoutControlLabelItem129
             // 
-            this.layoutControlLabelItem129.Bounds = new System.Drawing.Rectangle(0, 115, 166, 27);
+            this.layoutControlLabelItem129.Bounds = new System.Drawing.Rectangle(0, 108, 166, 26);
             this.layoutControlLabelItem129.DrawBorder = true;
             this.layoutControlLabelItem129.Name = "layoutControlLabelItem129";
             this.layoutControlLabelItem129.Text = "-";
             // 
             // layoutControlLabelItem130
             // 
-            this.layoutControlLabelItem130.Bounds = new System.Drawing.Rectangle(0, 28, 166, 28);
+            this.layoutControlLabelItem130.Bounds = new System.Drawing.Rectangle(0, 26, 166, 27);
             this.layoutControlLabelItem130.DrawBorder = true;
             this.layoutControlLabelItem130.Name = "layoutControlLabelItem130";
             this.layoutControlLabelItem130.Text = "105 | Программирование | Полусмак В. И.";
@@ -1644,49 +1646,49 @@
             // 
             // layoutControlLabelItem131
             // 
-            this.layoutControlLabelItem131.Bounds = new System.Drawing.Rectangle(0, 143, 161, 41);
+            this.layoutControlLabelItem131.Bounds = new System.Drawing.Rectangle(0, 135, 161, 49);
             this.layoutControlLabelItem131.DrawBorder = true;
             this.layoutControlLabelItem131.Name = "layoutControlLabelItem131";
             this.layoutControlLabelItem131.Text = "-";
             // 
             // layoutControlLabelItem132
             // 
-            this.layoutControlLabelItem132.Bounds = new System.Drawing.Rectangle(0, 57, 161, 30);
+            this.layoutControlLabelItem132.Bounds = new System.Drawing.Rectangle(0, 54, 161, 28);
             this.layoutControlLabelItem132.DrawBorder = true;
             this.layoutControlLabelItem132.Name = "layoutControlLabelItem132";
             this.layoutControlLabelItem132.Text = "105 | Программирование | Полусмак В. И.";
             // 
             // layoutControlLabelItem133
             // 
-            this.layoutControlLabelItem133.Bounds = new System.Drawing.Rectangle(0, 28, 161, 29);
+            this.layoutControlLabelItem133.Bounds = new System.Drawing.Rectangle(0, 26, 161, 28);
             this.layoutControlLabelItem133.DrawBorder = true;
             this.layoutControlLabelItem133.Name = "layoutControlLabelItem133";
             this.layoutControlLabelItem133.Text = "201 | Иностранный язык | Семёнов Н. Г.";
             // 
             // layoutControlLabelItem134
             // 
-            this.layoutControlLabelItem134.Bounds = new System.Drawing.Rectangle(0, 87, 161, 27);
+            this.layoutControlLabelItem134.Bounds = new System.Drawing.Rectangle(0, 82, 161, 26);
             this.layoutControlLabelItem134.DrawBorder = true;
             this.layoutControlLabelItem134.Name = "layoutControlLabelItem134";
             this.layoutControlLabelItem134.Text = "-";
             // 
             // layoutControlLabelItem135
             // 
-            this.layoutControlLabelItem135.Bounds = new System.Drawing.Rectangle(0, 114, 161, 29);
+            this.layoutControlLabelItem135.Bounds = new System.Drawing.Rectangle(0, 108, 161, 27);
             this.layoutControlLabelItem135.DrawBorder = true;
             this.layoutControlLabelItem135.Name = "layoutControlLabelItem135";
             this.layoutControlLabelItem135.Text = "-";
             // 
             // layoutControlLabelItem136
             // 
-            this.layoutControlLabelItem136.Bounds = new System.Drawing.Rectangle(0, 0, 161, 28);
+            this.layoutControlLabelItem136.Bounds = new System.Drawing.Rectangle(0, 0, 161, 26);
             this.layoutControlLabelItem136.DrawBorder = true;
             this.layoutControlLabelItem136.Name = "layoutControlLabelItem136";
             this.layoutControlLabelItem136.Text = "100 | Теор. вероятности | Едигорян М. В.";
             // 
             // layoutControlGroupItem6
             // 
-            this.layoutControlGroupItem6.Bounds = new System.Drawing.Rectangle(0, 1347, 1110, 271);
+            this.layoutControlGroupItem6.Bounds = new System.Drawing.Rectangle(0, 1346, 1110, 272);
             this.layoutControlGroupItem6.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlLabelItem7,
             this.layoutControlTabbedGroup21,
@@ -1698,13 +1700,13 @@
             // 
             // layoutControlLabelItem7
             // 
-            this.layoutControlLabelItem7.Bounds = new System.Drawing.Rectangle(689, 0, 413, 243);
+            this.layoutControlLabelItem7.Bounds = new System.Drawing.Rectangle(689, 0, 413, 244);
             this.layoutControlLabelItem7.DrawText = false;
             this.layoutControlLabelItem7.Name = "layoutControlLabelItem7";
             // 
             // layoutControlTabbedGroup21
             // 
-            this.layoutControlTabbedGroup21.Bounds = new System.Drawing.Rectangle(0, 0, 165, 243);
+            this.layoutControlTabbedGroup21.Bounds = new System.Drawing.Rectangle(0, 0, 165, 244);
             this.layoutControlTabbedGroup21.ItemGroups.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlGroupItem27});
             this.layoutControlTabbedGroup21.Name = "layoutControlTabbedGroup21";
@@ -1713,7 +1715,7 @@
             // 
             // layoutControlGroupItem27
             // 
-            this.layoutControlGroupItem27.Bounds = new System.Drawing.Rectangle(0, 0, 155, 184);
+            this.layoutControlGroupItem27.Bounds = new System.Drawing.Rectangle(0, 0, 155, 185);
             this.layoutControlGroupItem27.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlLabelItem9,
             this.layoutControlLabelItem10,
@@ -1726,49 +1728,49 @@
             // 
             // layoutControlLabelItem9
             // 
-            this.layoutControlLabelItem9.Bounds = new System.Drawing.Rectangle(0, 115, 155, 28);
+            this.layoutControlLabelItem9.Bounds = new System.Drawing.Rectangle(0, 109, 155, 27);
             this.layoutControlLabelItem9.DrawBorder = true;
             this.layoutControlLabelItem9.Name = "layoutControlLabelItem9";
             this.layoutControlLabelItem9.Text = "-";
             // 
             // layoutControlLabelItem10
             // 
-            this.layoutControlLabelItem10.Bounds = new System.Drawing.Rectangle(0, 87, 155, 28);
+            this.layoutControlLabelItem10.Bounds = new System.Drawing.Rectangle(0, 83, 155, 26);
             this.layoutControlLabelItem10.DrawBorder = true;
             this.layoutControlLabelItem10.Name = "layoutControlLabelItem10";
             this.layoutControlLabelItem10.Text = "-";
             // 
             // layoutControlLabelItem32
             // 
-            this.layoutControlLabelItem32.Bounds = new System.Drawing.Rectangle(0, 143, 155, 41);
+            this.layoutControlLabelItem32.Bounds = new System.Drawing.Rectangle(0, 136, 155, 49);
             this.layoutControlLabelItem32.DrawBorder = true;
             this.layoutControlLabelItem32.Name = "layoutControlLabelItem32";
             this.layoutControlLabelItem32.Text = "-";
             // 
             // layoutControlLabelItem35
             // 
-            this.layoutControlLabelItem35.Bounds = new System.Drawing.Rectangle(0, 57, 155, 30);
+            this.layoutControlLabelItem35.Bounds = new System.Drawing.Rectangle(0, 54, 155, 29);
             this.layoutControlLabelItem35.DrawBorder = true;
             this.layoutControlLabelItem35.Name = "layoutControlLabelItem35";
             this.layoutControlLabelItem35.Text = "101 | Математика | Сахарова Н. Е.";
             // 
             // layoutControlLabelItem36
             // 
-            this.layoutControlLabelItem36.Bounds = new System.Drawing.Rectangle(0, 28, 155, 29);
+            this.layoutControlLabelItem36.Bounds = new System.Drawing.Rectangle(0, 27, 155, 27);
             this.layoutControlLabelItem36.DrawBorder = true;
             this.layoutControlLabelItem36.Name = "layoutControlLabelItem36";
             this.layoutControlLabelItem36.Text = "103 | Обществознание | Калюжная М. В.";
             // 
             // layoutControlLabelItem37
             // 
-            this.layoutControlLabelItem37.Bounds = new System.Drawing.Rectangle(0, 0, 155, 28);
+            this.layoutControlLabelItem37.Bounds = new System.Drawing.Rectangle(0, 0, 155, 27);
             this.layoutControlLabelItem37.DrawBorder = true;
             this.layoutControlLabelItem37.Name = "layoutControlLabelItem37";
             this.layoutControlLabelItem37.Text = "104 | Информатика | Скоринова М. Б.";
             // 
             // layoutControlTabbedGroup22
             // 
-            this.layoutControlTabbedGroup22.Bounds = new System.Drawing.Rectangle(165, 0, 181, 243);
+            this.layoutControlTabbedGroup22.Bounds = new System.Drawing.Rectangle(165, 0, 181, 244);
             this.layoutControlTabbedGroup22.ItemGroups.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlGroupItem28});
             this.layoutControlTabbedGroup22.Name = "layoutControlTabbedGroup22";
@@ -1776,7 +1778,7 @@
             // 
             // layoutControlGroupItem28
             // 
-            this.layoutControlGroupItem28.Bounds = new System.Drawing.Rectangle(0, 0, 171, 184);
+            this.layoutControlGroupItem28.Bounds = new System.Drawing.Rectangle(0, 0, 171, 185);
             this.layoutControlGroupItem28.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlLabelItem137,
             this.layoutControlLabelItem138,
@@ -1789,49 +1791,49 @@
             // 
             // layoutControlLabelItem137
             // 
-            this.layoutControlLabelItem137.Bounds = new System.Drawing.Rectangle(0, 143, 171, 41);
+            this.layoutControlLabelItem137.Bounds = new System.Drawing.Rectangle(0, 136, 171, 49);
             this.layoutControlLabelItem137.DrawBorder = true;
             this.layoutControlLabelItem137.Name = "layoutControlLabelItem137";
             this.layoutControlLabelItem137.Text = "-";
             // 
             // layoutControlLabelItem138
             // 
-            this.layoutControlLabelItem138.Bounds = new System.Drawing.Rectangle(0, 57, 171, 29);
+            this.layoutControlLabelItem138.Bounds = new System.Drawing.Rectangle(0, 54, 171, 28);
             this.layoutControlLabelItem138.DrawBorder = true;
             this.layoutControlLabelItem138.Name = "layoutControlLabelItem138";
             this.layoutControlLabelItem138.Text = "103 | Обществознание | Калюжная М. В.";
             // 
             // layoutControlLabelItem139
             // 
-            this.layoutControlLabelItem139.Bounds = new System.Drawing.Rectangle(0, 28, 171, 29);
+            this.layoutControlLabelItem139.Bounds = new System.Drawing.Rectangle(0, 27, 171, 27);
             this.layoutControlLabelItem139.DrawBorder = true;
             this.layoutControlLabelItem139.Name = "layoutControlLabelItem139";
             this.layoutControlLabelItem139.Text = "104 | Информатика | Скоринова М. Б.";
             // 
             // layoutControlLabelItem140
             // 
-            this.layoutControlLabelItem140.Bounds = new System.Drawing.Rectangle(0, 0, 171, 28);
+            this.layoutControlLabelItem140.Bounds = new System.Drawing.Rectangle(0, 0, 171, 27);
             this.layoutControlLabelItem140.DrawBorder = true;
             this.layoutControlLabelItem140.Name = "layoutControlLabelItem140";
             this.layoutControlLabelItem140.Text = "101 | Математика | Сахарова Н. Е.";
             // 
             // layoutControlLabelItem141
             // 
-            this.layoutControlLabelItem141.Bounds = new System.Drawing.Rectangle(0, 115, 171, 28);
+            this.layoutControlLabelItem141.Bounds = new System.Drawing.Rectangle(0, 109, 171, 27);
             this.layoutControlLabelItem141.DrawBorder = true;
             this.layoutControlLabelItem141.Name = "layoutControlLabelItem141";
             this.layoutControlLabelItem141.Text = "-";
             // 
             // layoutControlLabelItem142
             // 
-            this.layoutControlLabelItem142.Bounds = new System.Drawing.Rectangle(0, 86, 171, 29);
+            this.layoutControlLabelItem142.Bounds = new System.Drawing.Rectangle(0, 82, 171, 27);
             this.layoutControlLabelItem142.DrawBorder = true;
             this.layoutControlLabelItem142.Name = "layoutControlLabelItem142";
             this.layoutControlLabelItem142.Text = "-";
             // 
             // layoutControlTabbedGroup23
             // 
-            this.layoutControlTabbedGroup23.Bounds = new System.Drawing.Rectangle(346, 0, 175, 243);
+            this.layoutControlTabbedGroup23.Bounds = new System.Drawing.Rectangle(346, 0, 175, 244);
             this.layoutControlTabbedGroup23.ItemGroups.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlGroupItem29});
             this.layoutControlTabbedGroup23.Name = "layoutControlTabbedGroup23";
@@ -1839,7 +1841,7 @@
             // 
             // layoutControlGroupItem29
             // 
-            this.layoutControlGroupItem29.Bounds = new System.Drawing.Rectangle(0, 0, 165, 184);
+            this.layoutControlGroupItem29.Bounds = new System.Drawing.Rectangle(0, 0, 165, 185);
             this.layoutControlGroupItem29.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlLabelItem143,
             this.layoutControlLabelItem144,
@@ -1852,49 +1854,49 @@
             // 
             // layoutControlLabelItem143
             // 
-            this.layoutControlLabelItem143.Bounds = new System.Drawing.Rectangle(0, 142, 165, 42);
+            this.layoutControlLabelItem143.Bounds = new System.Drawing.Rectangle(0, 135, 165, 50);
             this.layoutControlLabelItem143.DrawBorder = true;
             this.layoutControlLabelItem143.Name = "layoutControlLabelItem143";
             this.layoutControlLabelItem143.Text = "-";
             // 
             // layoutControlLabelItem144
             // 
-            this.layoutControlLabelItem144.Bounds = new System.Drawing.Rectangle(0, 58, 165, 28);
+            this.layoutControlLabelItem144.Bounds = new System.Drawing.Rectangle(0, 55, 165, 27);
             this.layoutControlLabelItem144.DrawBorder = true;
             this.layoutControlLabelItem144.Name = "layoutControlLabelItem144";
             this.layoutControlLabelItem144.Text = "201 | Иностранный язык | Семёнов Н. Г.";
             // 
             // layoutControlLabelItem145
             // 
-            this.layoutControlLabelItem145.Bounds = new System.Drawing.Rectangle(0, 28, 165, 30);
+            this.layoutControlLabelItem145.Bounds = new System.Drawing.Rectangle(0, 27, 165, 28);
             this.layoutControlLabelItem145.DrawBorder = true;
             this.layoutControlLabelItem145.Name = "layoutControlLabelItem145";
             this.layoutControlLabelItem145.Text = "101 | ЭВМ | Едигорян М. В.";
             // 
             // layoutControlLabelItem146
             // 
-            this.layoutControlLabelItem146.Bounds = new System.Drawing.Rectangle(0, 0, 165, 28);
+            this.layoutControlLabelItem146.Bounds = new System.Drawing.Rectangle(0, 0, 165, 27);
             this.layoutControlLabelItem146.DrawBorder = true;
             this.layoutControlLabelItem146.Name = "layoutControlLabelItem146";
             this.layoutControlLabelItem146.Text = "-";
             // 
             // layoutControlLabelItem147
             // 
-            this.layoutControlLabelItem147.Bounds = new System.Drawing.Rectangle(0, 115, 165, 27);
+            this.layoutControlLabelItem147.Bounds = new System.Drawing.Rectangle(0, 109, 165, 26);
             this.layoutControlLabelItem147.DrawBorder = true;
             this.layoutControlLabelItem147.Name = "layoutControlLabelItem147";
             this.layoutControlLabelItem147.Text = "-";
             // 
             // layoutControlLabelItem148
             // 
-            this.layoutControlLabelItem148.Bounds = new System.Drawing.Rectangle(0, 86, 165, 29);
+            this.layoutControlLabelItem148.Bounds = new System.Drawing.Rectangle(0, 82, 165, 27);
             this.layoutControlLabelItem148.DrawBorder = true;
             this.layoutControlLabelItem148.Name = "layoutControlLabelItem148";
             this.layoutControlLabelItem148.Text = "100 | Сис. программирование | Полусмак В. И.LabelItem148";
             // 
             // layoutControlTabbedGroup24
             // 
-            this.layoutControlTabbedGroup24.Bounds = new System.Drawing.Rectangle(521, 0, 168, 243);
+            this.layoutControlTabbedGroup24.Bounds = new System.Drawing.Rectangle(521, 0, 168, 244);
             this.layoutControlTabbedGroup24.ItemGroups.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlGroupItem30});
             this.layoutControlTabbedGroup24.Name = "layoutControlTabbedGroup24";
@@ -1902,7 +1904,7 @@
             // 
             // layoutControlGroupItem30
             // 
-            this.layoutControlGroupItem30.Bounds = new System.Drawing.Rectangle(0, 0, 158, 184);
+            this.layoutControlGroupItem30.Bounds = new System.Drawing.Rectangle(0, 0, 158, 185);
             this.layoutControlGroupItem30.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.layoutControlLabelItem149,
             this.layoutControlLabelItem150,
@@ -1915,42 +1917,42 @@
             // 
             // layoutControlLabelItem149
             // 
-            this.layoutControlLabelItem149.Bounds = new System.Drawing.Rectangle(0, 141, 158, 43);
+            this.layoutControlLabelItem149.Bounds = new System.Drawing.Rectangle(0, 134, 158, 51);
             this.layoutControlLabelItem149.DrawBorder = true;
             this.layoutControlLabelItem149.Name = "layoutControlLabelItem149";
             this.layoutControlLabelItem149.Text = "-";
             // 
             // layoutControlLabelItem150
             // 
-            this.layoutControlLabelItem150.Bounds = new System.Drawing.Rectangle(0, 0, 158, 28);
+            this.layoutControlLabelItem150.Bounds = new System.Drawing.Rectangle(0, 0, 158, 27);
             this.layoutControlLabelItem150.DrawBorder = true;
             this.layoutControlLabelItem150.Name = "layoutControlLabelItem150";
             this.layoutControlLabelItem150.Text = "СЗ | Физ. культура | Шевченко Е. В.";
             // 
             // layoutControlLabelItem151
             // 
-            this.layoutControlLabelItem151.Bounds = new System.Drawing.Rectangle(0, 86, 158, 28);
+            this.layoutControlLabelItem151.Bounds = new System.Drawing.Rectangle(0, 82, 158, 26);
             this.layoutControlLabelItem151.DrawBorder = true;
             this.layoutControlLabelItem151.Name = "layoutControlLabelItem151";
             this.layoutControlLabelItem151.Text = "-";
             // 
             // layoutControlLabelItem152
             // 
-            this.layoutControlLabelItem152.Bounds = new System.Drawing.Rectangle(0, 28, 158, 30);
+            this.layoutControlLabelItem152.Bounds = new System.Drawing.Rectangle(0, 27, 158, 28);
             this.layoutControlLabelItem152.DrawBorder = true;
             this.layoutControlLabelItem152.Name = "layoutControlLabelItem152";
             this.layoutControlLabelItem152.Text = "100 | Сис. программирование | Полусмак В. И.";
             // 
             // layoutControlLabelItem153
             // 
-            this.layoutControlLabelItem153.Bounds = new System.Drawing.Rectangle(0, 58, 158, 28);
+            this.layoutControlLabelItem153.Bounds = new System.Drawing.Rectangle(0, 55, 158, 27);
             this.layoutControlLabelItem153.DrawBorder = true;
             this.layoutControlLabelItem153.Name = "layoutControlLabelItem153";
             this.layoutControlLabelItem153.Text = "100 | Теор. вероятности | Едигорян М. В.";
             // 
             // layoutControlLabelItem155
             // 
-            this.layoutControlLabelItem155.Bounds = new System.Drawing.Rectangle(0, 114, 158, 27);
+            this.layoutControlLabelItem155.Bounds = new System.Drawing.Rectangle(0, 108, 158, 26);
             this.layoutControlLabelItem155.DrawBorder = true;
             this.layoutControlLabelItem155.Name = "layoutControlLabelItem155";
             this.layoutControlLabelItem155.Text = "-";
@@ -1982,6 +1984,13 @@
             this.layoutControlLabelItem165.EnableFocusBorder = true;
             this.layoutControlLabelItem165.Name = "layoutControlLabelItem165";
             this.layoutControlLabelItem165.Text = "-";
+            // 
+            // layoutControlLabelItem159
+            // 
+            this.layoutControlLabelItem159.Bounds = new System.Drawing.Rectangle(0, 140, 160, 47);
+            this.layoutControlLabelItem159.DrawBorder = true;
+            this.layoutControlLabelItem159.Name = "layoutControlLabelItem159";
+            this.layoutControlLabelItem159.Text = "-";
             // 
             // GeneralSchedulecs
             // 
@@ -2215,5 +2224,6 @@
         private Telerik.WinControls.UI.LayoutControlLabelItem layoutControlLabelItem59;
         private Telerik.WinControls.UI.LayoutControlItem layoutControlItem1;
         private Telerik.WinControls.UI.LayoutControlLabelItem layoutControlLabelItem165;
+        private Telerik.WinControls.UI.LayoutControlLabelItem layoutControlLabelItem159;
     }
 }

@@ -65,7 +65,6 @@ namespace schedule.mainPanelControls {
             Source.EndEdit();
             //Сохраняем данные
             OwnerForm.tableMGMT.UpdateAll(OwnerForm.scheduleDataSet);
-
             //Включаем кнопку
             MainButton.Enabled = true;
             //Запускаем анимацию скрытия панели
